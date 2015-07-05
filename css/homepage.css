@@ -8,3 +8,33 @@ a , .top-bar-section ul li > a {
 font-family: 'Tenor Sans', sans-serif;
 
 }
+
+.link-button {
+    position: absolute;
+    width: 170px;
+    top: 70%;
+    left: 50%;
+    margin-left: -85px;
+    background: none;
+}
+
+.ghost-button-thick-border {
+/*  display: inline-block;*/
+/*  width: 200px;*/
+  font-weight: bold;
+  padding: 8px;
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-thick-border:hover,
+.ghost-button-thick-border:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
