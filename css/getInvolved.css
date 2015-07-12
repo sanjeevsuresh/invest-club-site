@@ -1,0 +1,58 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logos {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.logos li {
+    width: 25%
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.logos img {
+    height: 100%;
+    width: 100%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 250%;
+    color: #0B2161; 
+    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+}
+
+.internStyling {
+    border: dotted 1px #885777; 
+    padding: 1em; 
+    background-color: #F0F8FF; 
+    font-size: 1.5em;
+    color: #0B2161; 
+    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    text-align: justify;
+}
+.divStyling {
+    width: 90%;
+    margin-left: auto ;
+    margin-right: auto ;
+
+}
+}
