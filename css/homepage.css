@@ -1,6 +1,9 @@
-.carousel-item.img{
-	width: 100%;
-	height: 50%;
+.carousel-item img {
+  width:100%;
+  min-width:100%;
+	height: 42em;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 
@@ -8,5 +11,39 @@ a , .top-bar-section ul li > a {
 
 font-family: 'Tenor Sans', sans-serif;
 
+<<<<<<< HEAD
 
 }
+=======
+}
+
+.link-button {
+    position: absolute;
+    width: 170px;
+    top: 70%;
+    left: 50%;
+    margin-left: -85px;
+    background: none;
+}
+
+.ghost-button-thick-border {
+/*  display: inline-block;*/
+/*  width: 200px;*/
+  font-weight: bold;
+  padding: 8px;
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-thick-border:hover,
+.ghost-button-thick-border:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
+>>>>>>> 212450e3b4c0cacc3d682376a0019599400c0f65
