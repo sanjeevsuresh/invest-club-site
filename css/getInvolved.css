@@ -1,6 +1,7 @@
 body {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 5%;
 }
 
 .logos {
@@ -11,7 +12,9 @@ body {
 }
 
 .logos li {
-    width: 25%
+    width: 25%;
+    padding-left: 2%;
+    padding-right: 2% ;
     position: relative;
     display: block;
     overflow: hidden;
@@ -20,6 +23,7 @@ body {
 .logos img {
     height: 100%;
     width: 100%;
+
 }
 
 hr {
