@@ -1,7 +1,27 @@
-body {
-    padding-left: 20px;
-    padding-right: 20px;
+
+.picture-banner {
     padding-top: 5%;
+    background-image: url("../assets/fullimage5.jpg");
+    background-position: 14% 10%;
+    height: 70%;
+    width: 100%;
+    position: relative;
+}
+.black {
+    color: black;
+    font-weight: 700;
+}
+.first-caption {
+    padding-top: 13%;
+    padding-left: -5%;
+    font-family: 'Arvo', serif;
+    font-style: italic;
+}
+.caption-overlayed {
+    color: #FFF;
+    font-family: 'Arvo', serif;
+}
+body {
 }
 
 .logos {
