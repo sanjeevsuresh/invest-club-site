@@ -1706,7 +1706,7 @@ meta.foundation-mq-topbar {
     margin-bottom: 0; }
 
 .fixed {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 99;
