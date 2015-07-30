@@ -133,6 +133,7 @@ font-family: 'Tenor Sans', sans-serif;
 }
 .footer-section {
   color: #FFF;
+  text-align: left;
 }
 .circle {
   position: relative;
