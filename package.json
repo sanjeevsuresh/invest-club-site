@@ -1,0 +1,23 @@
+{
+  "name": "invest-club-site",
+  "version": "1.0.0",
+  "description": "Berkeley Investment Group Website since 2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanjeevsuresh/invest-club-site"
+  },
+  "author": "Sanjeev Suresh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjeevsuresh/invest-club-site/issues"
+  },
+  "homepage": "https://github.com/sanjeevsuresh/invest-club-site",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-responsive-images": "^0.1.6"
+  }
+}
