@@ -58,19 +58,23 @@ h3 {
     text-align: center;
 }
 
-h4 {
-    font-size: 250%;
-    color: #0B2161; 
-    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+.section-title, .subsection {
+    font-family: 'Arbutus Slab', serif;
 }
 
 .involved-section {
-    border: dotted 1px #885777; 
-    padding: 1em; 
+    /*border: dotted 1px #885777; */
+    /*padding: 1em; */
     font-size: 1.5em;
     color: #0B2161; 
-    font-family: 'Arbutus Slab', serif;;
+    /*font-family: 'Arbutus Slab', serif;;*/
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
     text-align: justify;
+}
+.quote {
+    font-family: Baskerville;
+    text-align: left;
+    font-size: 1em;
 }
 .divStyling {
     width: 90%;
