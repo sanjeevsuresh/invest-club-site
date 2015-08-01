@@ -69,12 +69,12 @@ h3 {
     color: #0B2161; 
     /*font-family: 'Arbutus Slab', serif;;*/
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-    text-align: justify;
+    text-align: left;
 }
 .quote {
     font-family: Baskerville;
     text-align: left;
-    font-size: 1em;
+    font-size: 20px;
 }
 .divStyling {
     width: 90%;
