@@ -27,7 +27,8 @@ padding-left: 0;
   left: 15%;
 }
 
-.founded-club-mobile, .first-club-mobile, .largest-club-mobile, .invest-club-mobile {
+.founded-club-mobile, .first-club-mobile, .largest-club-mobile, 
+.invest-club-mobile , .keep-mobile, .and-mobile, .date-mobile {
   display: none;
 }
 #Research, #AboutUs, #JoinMailingList {
@@ -178,10 +179,11 @@ footer {
   .investment-research {
     top: 35%;
   }
-  .Founded, .largest-club {
+  .Founded, .largest-club , .mailing-caption {
     display: none;
   }
-  .founded-club-mobile, .first-club-mobile, .largest-club-mobile, .invest-club-mobile {
+  .founded-club-mobile, .first-club-mobile, .largest-club-mobile, .invest-club-mobile, 
+  .keep-mobile, .and-mobile, .date-mobile {
     position: absolute;
     display: inherit;
     width: 100%;
@@ -195,9 +197,12 @@ footer {
   .invest-club-mobile {top: 39%;}
   .link-button {top: 50%;}
   #home { font-size: 95%;}
-  .tailored, .passionate, .engage, .mailing-caption {font-size: 132%;}
-  .mailing-caption {top: 40%;}
+  .tailored, .passionate, .engage,{font-size: 132%;}
   .tailored {top: 20%;}
   .passionate {top: 30%;}
   .engage {top: 40%;}
+
+  .keep-mobile {top: 24%;}
+  .and-mobile {top: 32%;}
+  .date-mobile {top: 40%;}
 }
