@@ -30,7 +30,7 @@ padding-left: 0;
 .founded-club-mobile, .first-club-mobile, .largest-club-mobile, .invest-club-mobile {
   display: none;
 }
-#Research, #AboutUs {
+#Research, #AboutUs, #JoinMailingList {
   text-align: center;
 }
 .investment-research {
@@ -72,8 +72,9 @@ padding-left: 0;
   color: #FFF;
   height: 100%;
   width: 100%;
-  top: 57%; left: 35%; right: 0; bottom: 0;
-  margin-left: -8%;
+  /*top: 57%; left: 35%; right: 0; bottom: 0;*/
+  /*margin-left: -8%;*/
+  top: 57%;
   overflow: auto;
 }
 .white {
@@ -194,7 +195,8 @@ footer {
   .invest-club-mobile {top: 39%;}
   .link-button {top: 50%;}
   #home { font-size: 95%;}
-  .tailored, .passionate, .engage {font-size: 132%;}
+  .tailored, .passionate, .engage, .mailing-caption {font-size: 132%;}
+  .mailing-caption {top: 40%;}
   .tailored {top: 20%;}
   .passionate {top: 30%;}
   .engage {top: 40%;}
