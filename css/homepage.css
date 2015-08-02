@@ -41,32 +41,29 @@ padding-left: 0;
   top: 55%;
 }
 
-.caption5 {
+.tailored {
   position: absolute;
   color: #FFF;
   height: 100%;
   width: 100%;
   top: 30%; left: 10%; right: 0; bottom: 0;
   margin-left: -8%;
-  overflow: auto;
 }
-.caption6 {
+.passionate {
   position: absolute;
   color: #FFF;
   height: 100%;
   width: 100%;
   top: 40%; left: 15%; right: 0; bottom: 0;
   margin-left: -8%;
-  overflow: auto;
 }
-.caption7 {
+.engage {
   position: absolute;
   color: #FFF;
   height: 100%;
   width: 100%;
   top: 50%; left: 20%; right: 0; bottom: 0;
   margin-left: -8%;
-  overflow: auto;
 }
 
 
@@ -196,7 +193,8 @@ footer {
   .largest-club-mobile {top: 32%;}
   .invest-club-mobile {top: 39%;}
   .link-button {top: 50%;}
-  #home {
-    font-size: 95%;
-  }
+  #home { font-size: 95%;}
+  .tailored {top: 10%;}
+  .passionate {top: 20%;}
+  .engage {top: 30%;}
 }
