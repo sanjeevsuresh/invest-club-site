@@ -12,18 +12,28 @@ padding-left: 0;
   padding: 0px;
   overflow-x: hidden;
 }
-.caption {
+.Founded {
   position: absolute;
-  color: #FFF;
+  /*color: #FFF;*/
   top: 45%;
-  margin-left: -11%;
-  left:48%;
-}
+  width: 100%;
+/*  display: block;
+  margin: auto;*/
+ }
 .largest-club {
   position: absolute;
   color: #FFF;
   top: 55%;
   left: 15%;
+}
+.first-club-mobile {
+  display: none;
+}
+.largest-club-mobile {
+  display: none;
+}
+.invest-club-mobile {
+  display: none;
 }
 .caption3 {
   position: absolute;
@@ -162,9 +172,23 @@ font-family: 'Tenor Sans', sans-serif;
   margin-bottom: 0;
 
 }
-
 footer {
   color: #FFF;
   font-family: 'Tenor Sans'. sans-serif;
   background-color: #333333;
+}
+#AboutUs {
+    text-align: center;
+}
+ /* Small Screens */
+@media only screen and (max-width: 40em) {
+  #AboutUs {
+    text-align: center;
+  }
+  .Founded {
+    
+  }
+  .largest-club {
+    display: none;
+  }
 }
