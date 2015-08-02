@@ -26,13 +26,8 @@ padding-left: 0;
   top: 55%;
   left: 15%;
 }
-.first-club-mobile {
-  display: none;
-}
-.largest-club-mobile {
-  display: none;
-}
-.invest-club-mobile {
+
+.founded-club-mobile, .first-club-mobile, .largest-club-mobile, .invest-club-mobile {
   display: none;
 }
 .caption3 {
@@ -83,7 +78,9 @@ padding-left: 0;
   margin-left: -8%;
   overflow: auto;
 }
-
+.white {
+  color: white;
+}
 .black {
   color: black;
 }
@@ -185,22 +182,20 @@ footer {
   #AboutUs {
     text-align: center;
   }
-  .largest-club {
+  .Founded, .largest-club {
     display: none;
   }
-  .first-club-mobile, .largest-club-mobile, .invest-club-mobile {
+  .founded-club-mobile, .first-club-mobile, .largest-club-mobile, .invest-club-mobile {
     position: absolute;
     display: inherit;
     width: 100%;
     color: #FFF;
   }
-  .Founded {
-    top: 5%;
-  }
+  .founded-club-mobile { top: 16%; }
   .first-club-mobile {
-    top: 15%;
+    top: 24%;
   }
-  .largest-club-mobile {top: 25%;}
-  .invest-club-mobile {top: 35%;}
-  .link-button {top: 45%;}
+  .largest-club-mobile {top: 32%;}
+  .invest-club-mobile {top: 39%;}
+  .link-button {top: 50%;}
 }
