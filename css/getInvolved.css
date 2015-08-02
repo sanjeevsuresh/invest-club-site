@@ -11,6 +11,11 @@
     color: black;
     font-weight: 700;
 }
+.great-firms {
+  color: #FFF;
+  font-weight: 700;
+}
+
 .first-caption {
     padding-top: 8%;
     padding-left: -4%;
@@ -86,21 +91,23 @@ h3 {
         font-size: 12px;
     }
     .first-caption {
-        padding-top: 13%;
+        padding-top: 21%;
         padding-left: -5%;
         font-family: 'Arvo', serif;
         font-style: italic;
-        font-size: 90%;
+        font-size: 80%;
     }
     .caption-overlayed {
         color: #FFF;
         font-family: 'Arvo', serif;
-        font-size: 90%;
+        font-size: 80%;
     }
     .picture-banner {
         padding-top: 5%;
-        background-image: url("../assets/responsive/img/NYCSunset-large.jpg");
-        background-position: 14% 45%;
+        background-image: url("../assets/responsive/img/NYCSunset-small.jpg");
+        background-position: 0% 0%;
+        background-repeat: no-repeat;
+        background-size: 100% 170%;
         height: 50%;
         width: 100%;
         position: relative;
