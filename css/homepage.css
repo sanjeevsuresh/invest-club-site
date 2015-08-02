@@ -185,10 +185,22 @@ footer {
   #AboutUs {
     text-align: center;
   }
-  .Founded {
-    
-  }
   .largest-club {
     display: none;
   }
+  .first-club-mobile, .largest-club-mobile, .invest-club-mobile {
+    position: absolute;
+    display: inherit;
+    width: 100%;
+    color: #FFF;
+  }
+  .Founded {
+    top: 5%;
+  }
+  .first-club-mobile {
+    top: 15%;
+  }
+  .largest-club-mobile {top: 25%;}
+  .invest-club-mobile {top: 35%;}
+  .link-button {top: 45%;}
 }
