@@ -82,6 +82,10 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+#QuantChartMobile {
+    display: none;
+}
+
  /* Small Screens */
 @media only screen and (max-width: 40em) {
     .quote {
@@ -111,6 +115,19 @@ h3 {
         height: 50%;
         width: 100%;
         position: relative;
+    }
+    #QuantChartRight {
+        display: none;
+    }
+    #QuantChartMobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #WallStreetImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
