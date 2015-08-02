@@ -12,8 +12,8 @@
     font-weight: 700;
 }
 .first-caption {
-    padding-top: 13%;
-    padding-left: -5%;
+    padding-top: 8%;
+    padding-left: -4%;
     font-family: 'Arvo', serif;
     font-style: italic;
 }
@@ -96,6 +96,14 @@ h3 {
         color: #FFF;
         font-family: 'Arvo', serif;
         font-size: 90%;
+    }
+    .picture-banner {
+        padding-top: 5%;
+        background-image: url("../assets/responsive/img/NYCSunset-large.jpg");
+        background-position: 14% 45%;
+        height: 50%;
+        width: 100%;
+        position: relative;
     }
 }
 
