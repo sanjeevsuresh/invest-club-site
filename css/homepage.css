@@ -194,7 +194,8 @@ footer {
   .invest-club-mobile {top: 39%;}
   .link-button {top: 50%;}
   #home { font-size: 95%;}
-  .tailored {top: 10%;}
-  .passionate {top: 20%;}
-  .engage {top: 30%;}
+  .tailored, .passionate, .engage {font-size: 120%;}
+  .tailored {top: 20%;}
+  .passionate {top: 30%;}
+  .engage {top: 40%;}
 }
