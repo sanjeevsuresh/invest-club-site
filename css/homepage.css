@@ -196,4 +196,7 @@ footer {
   .largest-club-mobile {top: 32%;}
   .invest-club-mobile {top: 39%;}
   .link-button {top: 50%;}
+  #home {
+    font-size: 95%;
+  }
 }
