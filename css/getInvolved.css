@@ -63,9 +63,6 @@ h3 {
 }
 
 .involved-section {
-    /*border: dotted 1px #885777; */
-    /*padding: 1em; */
-    font-size: 1.5em;
     color: #0B2161; 
     /*font-family: 'Arbutus Slab', serif;;*/
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
@@ -74,11 +71,32 @@ h3 {
 .quote {
     font-family: Baskerville;
     text-align: left;
-    font-size: 20px;
 }
 .divStyling {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-
 }
+ /* Small Screens */
+@media only screen and (max-width: 40em) {
+    .quote {
+        font-size: 12px;
+    }
+    .topic {
+        font-size: 12px;
+    }
+    .first-caption {
+        padding-top: 13%;
+        padding-left: -5%;
+        font-family: 'Arvo', serif;
+        font-style: italic;
+        font-size: 90%;
+    }
+    .caption-overlayed {
+        color: #FFF;
+        font-family: 'Arvo', serif;
+        font-size: 90%;
+    }
+}
+
+
