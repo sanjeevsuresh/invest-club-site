@@ -1,13 +1,16 @@
 html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
+html, body {
+  height: 100%;
+  background-color: #333;
+}
 .no-pad-right {
 padding-right: 0;
 }
 .no-pad-left{
 padding-left: 0;
 }
-
 .carousel-item img {
   width:100%;
   min-width:100%;
@@ -176,6 +179,7 @@ footer {
   color: #FFF;
   font-family: 'Tenor Sans'. sans-serif;
   background-color: #333333;
+  padding-bottom: 0;
 }
  /* Small Screens */
 @media only screen and (max-width: 40em) {

@@ -1,0 +1,22 @@
+html { 
+}
+body {
+	padding-top: 70px;
+	background: url(../assets/img/QuantChart.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.pricing-table .title {
+	/*background-color: rgba(0, 0, 0, 0.00392157);*/
+	background-color: rgba(100, 220, 170, 1);
+	/*background-color: #2DB011; */
+	color: white;
+}
+.section-title {
+	color: white;
+}
+#checkout-summary {
+	min-height: 80%;
+}
