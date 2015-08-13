@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/sanjeevsuresh/invest-club-site",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-responsive-images": "^0.1.6"
+    "grunt": "^0.4.5"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "gulp": "^3.9.0"
   }
 }

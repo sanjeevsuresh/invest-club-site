@@ -1,0 +1,23 @@
+{
+  "name": "invest-club-site",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sanjeevsuresh/invest-club-site",
+  "authors": [
+    "Sanjeev Suresh <sanjeevsuresh95@gmail.com>"
+  ],
+  "description": "BIG Website from Fall 2015",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3"
+  }
+}
