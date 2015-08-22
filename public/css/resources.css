@@ -1,0 +1,132 @@
+.picture-banner {
+    padding-top: 5%;
+    background-image: url("../assets/img/WallStreetSign.jpg");
+    background-position: 14% 10%;
+    height: 70%;
+    width: 100%;
+    position: relative;
+}
+.black {
+    color: black;
+    font-weight: 700;
+}
+.great-firms {
+  color: #FFF;
+  font-weight: 700;
+}
+
+.first-caption {
+    padding-top: 8%;
+    padding-left: -4%;
+    font-family: 'Arvo', serif;
+    font-style: italic;
+}
+.caption-overlayed {
+    color: #FFF;
+    font-family: 'Arvo', serif;
+}
+body {
+    background-color: #FFF;
+}
+
+.logos {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.logos li {
+    width: 25%;
+    padding-left: 2%;
+    padding-right: 2% ;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.logos img {
+    height: 100%;
+    width: 100%;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.section-title, .subsection {
+    font-family: 'Arbutus Slab', serif;
+}
+
+.involved-section {
+    color: #0B2161; 
+    /*font-family: 'Arbutus Slab', serif;;*/
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    text-align: justify;
+}
+.quote {
+    font-family: Baskerville;
+    text-align: left;
+}
+.divStyling {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#QuantChartMobile {
+    display: none;
+}
+
+ /* Small Screens */
+@media only screen and (max-width: 40em) {
+    .quote {
+        font-size: 12px;
+    }
+    .topic {
+        font-size: 12px;
+    }
+    .first-caption {
+        padding-top: 21%;
+        padding-left: -5%;
+        font-family: 'Arvo', serif;
+        font-style: italic;
+        font-size: 80%;
+    }
+    .caption-overlayed {
+        color: #FFF;
+        font-family: 'Arvo', serif;
+        font-size: 80%;
+    }
+    .picture-banner {
+        padding-top: 5%;
+        background-image: url("../assets/responsive/img/NYCSunset-small.jpg");
+        background-position: 0% 0%;
+        background-repeat: no-repeat;
+        background-size: 100% 170%;
+        height: 50%;
+        width: 100%;
+        position: relative;
+    }
+    #QuantChartRight {
+        display: none;
+    }
+    #QuantChartMobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #WallStreetImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
