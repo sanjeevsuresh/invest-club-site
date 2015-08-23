@@ -2,6 +2,8 @@
     padding-top: 5%;
     background-image: url("../assets/img/WallStreetSign.jpg");
     background-position: 0% 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     height: 70%;
     width: 100%;
 }
@@ -12,6 +14,23 @@
 .great-firms {
   color: #FFF;
   font-weight: 700;
+}
+.articleList {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.article {
+    border: solid;
+    width: 70%;
+    max-height: 70px;
+    line-height: 100px;
+}
+.article:hover {
+    border: none;
+    width: 70%;
+    max-height: 125px;
+    line-height: 100px;
 }
 
 .first-caption {
@@ -66,6 +85,29 @@ h3 {
     font-family: 'Arbutus Slab', serif;
 }
 
+.pitchbox {width:250px; height: 300px; margin: auto;
+    -webkit-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.26);
+    box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.26);
+}
+.pitchbox:hover {
+    /*-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;*/
+    -webkit-box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.26);
+    box-shadow: 0px 0px 19px 10px rgba(0,120,0,0.5);
+}
+.pitchlogo {width: 250px; height: 200px; max-height: 200px; background-color: #fff; border: 1px; padding-bottom: 50px; margin: auto; text-align: center;}
+.textarea {width: 250px; max-width: 250px; height: 100px; max-height: 100px; 
+    background-color: #d3d4d3; 
+    border: 1px; padding-left: 10px; padding-bottom: 100px; margin: auto; overflow: hidden;}
+.pitchlogo, .textarea {
+}
+.officers, .Date {
+    font-size: 12px;
+
+}
 .involved-section {
     color: #0B2161; 
     /*font-family: 'Arbutus Slab', serif;;*/
