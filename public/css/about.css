@@ -11,102 +11,19 @@
     position: relative;
 
 }
-.black {
-    color: black;
-    font-weight: 700;
+.headline {
+    color: #990000;
+    font-size: 75px;
 }
-.first-caption {
-    padding-top: 13%;
-    padding-left: -5%;
-    font-family: 'Arvo', serifg
-    font-style: italic;
-}
-.caption-overlayed {
-    color: #FFF;
-    font-family: 'Arvo', serif;
-}
-body {
-}
-
-.logos {
-    width: 94%;
-    margin-left: 3%;
-    margin-right: 3%;
+.mission-title {
     text-align: center;
 }
-
-.logos li {
-    width: 25%;
-    padding-left: 2%;
-    padding-right: 2% ;
-    position: relative;
-    display: block;
-    overflow: hidden;
-}
-
-.logos img {
-    height: 100%;
-    width: 100%;
-
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border-top: 1px solid #ccc;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-h3 {
-    text-align: center;
-}
-
-h4 {
-    font-size: 250%;
-    color: #0B2161; 
-    font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-}
-
-#pics {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 200px;
-    }
-
-.AboutUsCaption {
-    font-family: Baskerville;
-    font-size: 32px;
-    color: #848482;
-    text-align: justify;
-    padding: 20px 140px;
-}
-
-.firstLine {
-    margin: 40px 140px;
-    height: 1px;
-    background-color: #D1D0CE;
-    color: #D1D0CE;
-    border: none;
-}
-
-.betweenDivs {
-    margin: 20px 140px;
-    height: 1px;
-    color: #D1D0CE;
-}
-
-.section-title, .subsection {
-    font-family: 'Arbutus Slab', serif;
-    font-size: 28px;
-    color: #2C3539;
-}
-
 .involved-section {
-    color: #848482;
-    /*font-family: 'Arbutus Slab', serif;;*/
-    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-    text-align: justify;
-    font-size: 24px;
+    color: black;
+}
+#DecalImg {
+    padding-top: 12%;
+}
+#QuantChartRight {
+    padding-top: 10%;
 }

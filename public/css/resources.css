@@ -7,6 +7,10 @@
     height: 70%;
     width: 100%;
 }
+.headline {
+    padding-top: 15%;
+    color: white;
+}
 .black {
     color: black;
     font-weight: 700;
@@ -96,7 +100,7 @@ h3 {
     box-shadow: none;*/
     -webkit-box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.26);
     -moz-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.26);
-    box-shadow: 0px 0px 19px 10px rgba(0,120,0,0.5);
+    box-shadow: 0px 0px 19px 10px rgba(0,0,0,0.5);
 }
 .pitchlogo {width: 250px; height: 200px; max-height: 200px; background-color: #fff; border: 1px; padding-bottom: 50px; margin: auto; text-align: center;}
 .textarea {width: 250px; max-width: 250px; height: 100px; max-height: 100px; 
@@ -106,7 +110,6 @@ h3 {
 }
 .officers, .Date {
     font-size: 12px;
-
 }
 .involved-section {
     color: #0B2161; 

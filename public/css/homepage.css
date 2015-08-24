@@ -1,6 +1,37 @@
 html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
+@font-face {
+    font-family: alteHaas;
+    src: url(fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(fonts/bebas_neue/BebasNeue.otf);
+}
+@font-face {
+  font-family: Cabin; 
+  src: url(fonts/cabin/Cabin-Bold.otf);
+}
+@font-face {
+  font-family: LeagueGothic;
+  src: url(fonts/league-gothic/webfonts/leaguegothic-webfont.ttf);
+}
+@font-face {
+  font-family: MyriadPro;
+  src: url(fonts/myriad-pro/MYRIADPRO-BOLD.OTF);
+}
+@font-face {
+  font-family: ptserif;
+  src: url(fonts/pt-serif/PTF75F.ttf);
+}
+.headline {
+    font-family: BebasNeue;
+    letter-spacing: 5px;
+    padding-top: 11%;
+    font-size: 65px;
+    text-align: center;
+}
 html, body {
   height: 100%;
   background-color: #333;
@@ -180,6 +211,12 @@ footer {
   font-family: 'Tenor Sans'. sans-serif;
   background-color: #333333;
   padding-bottom: 0;
+}
+.disclaimer {
+  font-size: 8px;
+  padding-right: 10%;
+  margin-right: 70px;
+  text-align: justify;
 }
  /* Small Screens */
 @media only screen and (max-width: 40em) {
