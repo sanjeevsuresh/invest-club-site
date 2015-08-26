@@ -56,6 +56,17 @@ html {
   font-family: ptserif;
   src: url(fonts/pt-serif/PTF75F.ttf);
 }
+
+@font-face {
+  font-family: dubiel;
+  src: url(fonts/dubiel/DUBIEL.ttf);
+}
+
+@font-face {
+  font-family: prida;
+  src: url(fonts/prida/Prida01Black.OTF);
+}
+
 .headline {
     font-family: Garamond;
     letter-spacing: 5px;
