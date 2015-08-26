@@ -1,5 +1,5 @@
 .picture-banner {
-    padding-top: 5%;
+    margin-top: -75px;
     background-image: url("../assets/responsive/img/NYCSunset-large.jpg");
     background-position: 14% 10%;
     background-repeat: no-repeat;
@@ -23,9 +23,13 @@
     font-family: 'Arvo', serif;
     font-style: italic;
 }
+
 .caption-overlayed {
     color: #FFF;
     font-family: 'Arvo', serif;
+}
+.first-caption, .caption-overlayed {
+    font-size: 35px;
 }
 body {
     background-color: #FFF;

@@ -1725,7 +1725,7 @@ meta.foundation-mq-topbar {
       z-index: 98; }
 
 .top-bar {
-  background: #333333;
+  background: rgba(51,51,51, 0.5);
   height: 2.8125rem;
   line-height: 2.8125rem;
   margin-bottom: 0;
@@ -2042,7 +2042,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.0625em) {
   .top-bar {
-    background: #333333;
+    background: rgba(51,51,51,0.5);
     overflow: visible; }
     .top-bar:before, .top-bar:after {
       content: " ";
