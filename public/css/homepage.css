@@ -25,6 +25,17 @@ html {
   font-family: ptserif;
   src: url(fonts/pt-serif/PTF75F.ttf);
 }
+
+@font-face {
+  font-family: dubiel;
+  src: url(fonts/dubiel/DUBIEL.ttf);
+}
+
+@font-face {
+  font-family: prida;
+  src: url(fonts/prida/Prida01Black.OTF);
+}
+
 .headline {
     font-family: BebasNeue;
     letter-spacing: 5px;
@@ -129,8 +140,12 @@ padding-left: 0;
   color: #FDB515;
 }
 .courgette {
-  font-family: 'Courgette', cursive;
+  /*font-family: 'Courgette', cursive;
+  font-weight: 500;*/
+  color: white;
+  font-family: 'prida';
   font-weight: 500;
+
 }
 
 a , .top-bar-section ul li > a {
