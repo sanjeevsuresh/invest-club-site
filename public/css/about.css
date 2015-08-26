@@ -1,12 +1,13 @@
 .picture-banner {
-    padding-top: 5%;
+    margin-top: -75px;
     background-image: url("../assets/img/HaasArchFrontViewEditted.jpg"); 
     background-position: 0% 90%;
     height:70%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 170%;
-    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
     display:block;
     position: relative;
 

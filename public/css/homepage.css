@@ -1,6 +1,33 @@
 html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
+.top-bar, .top-bar-section ul li>a {
+  background-color: rgba(51,51,51, 0);
+}
+.top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button){
+    background: #FFF;
+    background-color: rgba(51,51,51, 0) !important;
+    text-transform: uppercase;
+}
+/*
+.top-bar-section li a:not(.button) {
+  background: rgb(12,12,12) !important;   
+}*/
+
+.top-bar-section li a:not(.button):hover {
+  background: #172861 !important;
+}
+#comingsoon {
+  margin-top: -75px;
+}
+/*
+.top-bar-section ul li.active > a {
+  background: gray !important;   
+}
+
+.top-bar-section ul li.active > a:hover {
+    background: yellow !important;   
+}*/
 @font-face {
     font-family: alteHaas;
     src: url(fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
@@ -8,6 +35,10 @@ html {
 @font-face {
     font-family: BebasNeue;
     src: url(fonts/bebas_neue/BebasNeue.otf);
+}
+@font-face {
+    font-family: Martel;
+    src: url(fonts/Martel/Martel-DemiBold.ttf);
 }
 @font-face {
   font-family: Cabin; 
@@ -26,7 +57,7 @@ html {
   src: url(fonts/pt-serif/PTF75F.ttf);
 }
 .headline {
-    font-family: BebasNeue;
+    font-family: Garamond;
     letter-spacing: 5px;
     padding-top: 11%;
     font-size: 65px;
@@ -41,6 +72,9 @@ padding-right: 0;
 }
 .no-pad-left{
 padding-left: 0;
+}
+.my-carousel {
+  margin-top: -75px;
 }
 .carousel-item img {
   width:100%;
@@ -129,8 +163,8 @@ padding-left: 0;
   color: #FDB515;
 }
 .courgette {
-  font-family: 'Courgette', cursive;
-  font-weight: 500;
+  font-family: MyriadPro;
+  font-weight: 600;
 }
 
 a , .top-bar-section ul li > a {
