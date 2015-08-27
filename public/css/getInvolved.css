@@ -18,7 +18,7 @@
 }
 
 .first-caption {
-    padding-top: 8%;
+    padding-top: 14%;
     padding-left: -4%;
     font-family: 'Arvo', serif;
     font-style: italic;
@@ -29,7 +29,7 @@
     font-family: 'Arvo', serif;
 }
 .first-caption, .caption-overlayed {
-    font-size: 35px;
+    font-size: 30px;
 }
 body {
     background-color: #FFF;
@@ -70,13 +70,15 @@ h3 {
 }
 
 .section-title, .subsection {
-    font-family: 'Arbutus Slab', serif;
+    font-family: gillsans;
+    font-size: 35px !important;
 }
 
 .involved-section {
-    color: #0B2161; 
-    /*font-family: 'Arbutus Slab', serif;;*/
-    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+/*    color: #0B2161; 
+*/    /*font-family: 'Arbutus Slab', serif;;*/
+    font-family: EBGaramond;
+    font-size: 25px !important;
     text-align: justify;
 }
 .quote {

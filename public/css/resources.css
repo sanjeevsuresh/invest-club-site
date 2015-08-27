@@ -8,7 +8,7 @@
     width: 100%;
 }
 .headline {
-    padding-top: 15%;
+    padding-top: 20%;
     color: white;
 }
 .black {
@@ -83,10 +83,6 @@ hr {
 
 h3 {
     text-align: center;
-}
-
-.section-title, .subsection {
-    font-family: 'Arbutus Slab', serif;
 }
 
 .pitchbox {width:250px; height: 300px; margin: auto;

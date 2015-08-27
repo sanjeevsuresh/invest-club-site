@@ -5,8 +5,8 @@ html {
   background-color: rgba(51,51,51, 0);
 }
 .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button){
-    background: #FFF;
-    background-color: rgba(51,51,51, 0) !important;
+    background: #FFF !important;
+    background-color: rgba(51,51,51, 0.5) !important;
     text-transform: uppercase;
 }
 /*
@@ -37,6 +37,10 @@ html {
     src: url(fonts/bebas_neue/BebasNeue.otf);
 }
 @font-face {
+    font-family: EBGaramond;
+    src: url(fonts/eb-garamond/EBGaramond12-Regular.ttf);
+}
+@font-face {
     font-family: Martel;
     src: url(fonts/Martel/Martel-DemiBold.ttf);
 }
@@ -56,19 +60,25 @@ html {
   font-family: ptserif;
   src: url(fonts/pt-serif/PTF75F.ttf);
 }
-
 @font-face {
   font-family: dubiel;
   src: url(fonts/dubiel/DUBIEL.ttf);
 }
-
 @font-face {
   font-family: prida;
   src: url(fonts/prida/Prida01Black.OTF);
 }
-
+@font-face{
+  font-family: gillsans;
+  src: url(fonts/gillsans/gillsans.ttf);
+}
+p {
+  font-family: EBGaramond;
+  font-size: 25px !important;
+  text-align: justify;
+}
 .headline {
-    font-family: Garamond;
+    font-family: EBGaramond;
     letter-spacing: 5px;
     padding-top: 11%;
     font-size: 65px;
@@ -258,7 +268,7 @@ footer {
   padding-bottom: 0;
 }
 .disclaimer {
-  font-size: 8px;
+  font-size: 8px !important;
   padding-right: 10%;
   margin-right: 70px;
   text-align: justify;
