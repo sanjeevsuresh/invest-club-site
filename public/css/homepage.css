@@ -123,7 +123,7 @@ padding-left: 0;
   color: #FFF;
   height: 100%;
   width: 100%;
-  top: 55%;
+  top: 50%;
 }
 
 .tailored {
@@ -178,7 +178,6 @@ padding-left: 0;
 .courgette {
   font-family: 'Arvo';
   font-weight: 600;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 a , .top-bar-section ul li > a {
