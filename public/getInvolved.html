@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/getInvolved.css">
 </head>
 
-<div class="fixed">
+<div id="navbar">
     <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
             <li class="name">
@@ -188,7 +188,7 @@
                     <ul style="list-style: none;">
                         <li class="topic">Intern Application: <a href="#">Fall 2015 Application</a></li>
                         <!--Link to application page once it is constructed --> 
-                        <li class="topic">Successful Pitches: <a href="#">Pitch Resources</a></li>
+                        <li class="topic">Past Pitches: <a href="#">Pitch Resources</a></li>
                         <!--Link to Successful pitches page once it is constructed -->
                     </ul>
                     <h5 class="subsection">Curriculum</h5>
@@ -210,9 +210,8 @@
                     <h3 class="quote"> - We teach advanced financial modeling</h3>
                     <h3 class="quote"> - Each semester, interns participate in a consulting competition</h3>
                     <h3 class="quote"> - Each intern receives guidance from a BIG mentor</h3>
-                    <h3 class="quote"> - The average intern spends 8-10 hrs a week</h3>
+                    <h3 class="quote"> - The average intern spends 10-15 hrs a week</h3>
                     <h3 class="quote"> - 100% of officers were interns</h3>
-                    <h3 class="quote"> - We typically take 10% of applicants</h3>
                 </div>
             </div>
         </div>
@@ -272,7 +271,12 @@
     <script src="js/vendor/jquery.js "></script>
     <script src="js/foundation.min.js"></script>    
     <script type="text/javascript " src="js/slick.min.js "></script>
-    <script> $(document).foundation();</script>
+    <script> 
+        $(document).foundation();
+        $(".picture-banner div").scroll(function (){
+            console.log('scrolling');
+        });
+    </script>
     
 
 

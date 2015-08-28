@@ -7,6 +7,15 @@
     height: 70%;
     width: 100%;
 }
+.book img {
+    width: 350px;
+    height: 475px;
+}
+.book:hover img {
+    -webkit-box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.26);
+    box-shadow: 0px 0px 19px 10px rgba(0,0,0,0.5);
+}
 .headline {
     padding-top: 20%;
     color: white;

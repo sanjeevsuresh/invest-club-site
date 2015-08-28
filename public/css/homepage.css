@@ -3,12 +3,13 @@ html {
 }
 .top-bar, .top-bar-section ul li>a {
   background-color: rgba(51,51,51, 0);
+  z-index: 999;
 }
 .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button){
     background: #FFF !important;
-    background-color: rgba(51,51,51, 0.5) !important;
-    text-transform: uppercase;
-}
+    background-color: rgba(51,51,51, 0.15) !important;
+/*    text-transform: uppercase;
+*/}
 /*
 .top-bar-section li a:not(.button) {
   background: rgb(12,12,12) !important;   
@@ -17,9 +18,10 @@ html {
 .top-bar-section li a:not(.button):hover {
   background: #172861 !important;
 }
-#comingsoon {
+.comingsoon {
   margin-top: -75px;
-}
+/*  position: relative;
+*/}
 /*
 .top-bar-section ul li.active > a {
   background: gray !important;   
@@ -59,10 +61,6 @@ html {
 @font-face {
   font-family: ptserif;
   src: url(fonts/pt-serif/PTF75F.ttf);
-}
-@font-face{
-  font-family: gillsans;
-  src: url(fonts/gillsans/gillsans.ttf);
 }
 p {
   font-family: EBGaramond;
@@ -131,7 +129,7 @@ padding-left: 0;
   color: #FFF;
   height: 100%;
   width: 100%;
-  top: 30%; left: 10%; right: 0; bottom: 0;
+  top: 40%; left: 10%; right: 0; bottom: 0;
   margin-left: -8%;
 }
 .passionate {
@@ -139,7 +137,7 @@ padding-left: 0;
   color: #FFF;
   height: 100%;
   width: 100%;
-  top: 40%; left: 15%; right: 0; bottom: 0;
+  top: 50%; left: 15%; right: 0; bottom: 0;
   margin-left: -8%;
 }
 .engage {
@@ -267,6 +265,12 @@ footer {
 }
  /* Small Screens */
 @media only screen and (max-width: 40em) {
+  .logo {
+    width: 100px;
+  }
+  .top-bar.expanded {
+    background-color: #333;
+  }
   .investment-research {
     top: 35%;
   }

@@ -1,7 +1,6 @@
 html { 
 }
 body {
-	padding-top: 70px;
 	background: url(../assets/img/QuantChart.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -13,10 +12,12 @@ body {
 	background-color: rgba(100, 220, 170, 1);
 	/*background-color: #2DB011; */
 	color: white;
+	line-height: 25px;
 }
 .section-title {
 	color: white;
 }
 #checkout-summary {
+	padding-top: 5%;
 	min-height: 80%;
 }
