@@ -148,7 +148,9 @@ padding-left: 0;
   top: 50%; left: 20%; right: 0; bottom: 0;
   margin-left: -8%;
 }
-
+.construction {
+  color: #FFF; position: absolute; top: 10%;
+}
 
 .mailing-caption {
   position: absolute;
@@ -267,6 +269,18 @@ footer {
 @media only screen and (max-width: 40em) {
   .logo {
     width: 100px;
+  }
+  .construction {
+    top: 5%;
+  }
+  p {
+    font-family: EBGaramond;
+    font-size: 15px !important;
+    text-align: justify;
+  }
+
+  .headline {
+    font-size: 20px;
   }
   .top-bar.expanded {
     background-color: #333;

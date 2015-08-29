@@ -143,6 +143,11 @@ h3 {
     .topic {
         font-size: 12px;
     }
+    .book img {
+        width: 200px;
+        height: 250px;
+    }
+
     .first-caption {
         padding-top: 21%;
         padding-left: -5%;
