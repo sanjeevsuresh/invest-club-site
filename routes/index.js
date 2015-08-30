@@ -25,7 +25,7 @@ router.post('/charge', function (request, response, next) {
 	    response.send('Your transaction did not go through for the following reason:\n' + err.message);
 	    console.log(err);
 	  } else {
-	  	response.send('Welcome to BIG!');
+	  	response.redirect('https://docs.google.com/forms/d/1m9In9HW78jVlUPoqtgnJ_ymosLhlcg9FgBXx_bOTXOw/viewform');
 	  }
 	});
 });

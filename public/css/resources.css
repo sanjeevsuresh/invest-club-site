@@ -137,6 +137,18 @@ h3 {
 
  /* Small Screens */
 @media only screen and (max-width: 40em) {
+    .picture-banner {
+        background-size: 100% 100%;
+        background-position: 0% 0%;
+    }
+    .headline {
+        padding-top: 65%;
+        font-size: 35px;
+    }
+    .help {
+        color: white;
+    }
+
     .quote {
         font-size: 12px;
     }
@@ -159,16 +171,6 @@ h3 {
         color: #FFF;
         font-family: 'Arvo', serif;
         font-size: 80%;
-    }
-    .picture-banner {
-        padding-top: 5%;
-        background-image: url("../assets/responsive/img/NYCSunset-small.jpg");
-        background-position: 0% 0%;
-        background-repeat: no-repeat;
-        background-size: 100% 170%;
-        height: 50%;
-        width: 100%;
-        position: relative;
     }
     #QuantChartRight {
         display: none;
