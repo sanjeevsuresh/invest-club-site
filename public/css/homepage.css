@@ -264,13 +264,21 @@ footer {
   padding-bottom: 0;
 }
 .disclaimer {
-  font-size: 8px !important;
+  font-size: 10px !important;
   padding-right: 10%;
   margin-right: 70px;
   text-align: justify;
 }
 #mobile img {
   display: none;
+}
+.breadcrumbs {
+  background-color: rgba(51,51,51, 1) !important;
+  border-style: none;
+  width: 100%;
+}
+.breadcrumbs a {
+  color: white;
 }
  /* Small Screens */
 @media only screen and (max-width: 40em) {
