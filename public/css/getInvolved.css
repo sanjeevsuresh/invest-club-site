@@ -36,16 +36,15 @@ body {
 }
 
 .logos {
-    width: 94%;
-    margin-left: 3%;
-    margin-right: 3%;
+/*    margin-left: 3%;
+    margin-right: 3%;*/
     text-align: center;
 }
 
 .logos li {
     width: 25%;
-    padding-left: 2%;
-    padding-right: 2% ;
+    padding-left: 1%;
+    padding-right: 1% ;
     position: relative;
     display: block;
     overflow: hidden;
@@ -73,6 +72,11 @@ h3 {
     font-family: EBGaramond;
     font-size: 35px !important;
 }
+.subtitle {
+    font-family: EBGaramond;
+    font-size: 20px !important;
+    text-align: center;
+}
 
 .involved-section {
 /*    color: #0B2161; 
@@ -94,14 +98,28 @@ h3 {
 #QuantChartMobile {
     display: none;
 }
+#WallStreetImg {
+    margin-top: 7%;
+}
 
  /* Small Screens */
 @media only screen and (max-width: 40em) {
     .quote {
         font-size: 12px;
     }
+    .logos {
+        width: 100%;
+        text-align: center;
+    }
+    .logos li {
+        width: 50%;
+    }
     .topic {
         font-size: 12px;
+    }
+    .section-title, .subsection {
+        font-family: EBGaramond;
+        font-size: 30px !important;
     }
     .first-caption {
         padding-top: 21%;

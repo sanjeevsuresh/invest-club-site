@@ -22,12 +22,6 @@
 .involved-section {
     color: black;
 }
-#DecalImg {
-    padding-top: 12%;
-}
-#QuantChartRight {
-    padding-top: 10%;
-}
 
 @media only screen and (max-width: 40em) {
     .picture-banner {
