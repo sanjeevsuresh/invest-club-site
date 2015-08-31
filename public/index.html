@@ -13,7 +13,6 @@
     <script src="js/vendor/modernizr.js"></script>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
     <link rel="stylesheet" href="css/homepage.css">
-    <link href='http://fonts.googleapis.com/css?family=Courgette&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
   
 <div id="navbar">
@@ -34,7 +33,18 @@
         <section class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right">
-                <li><a href="about.html">About Us</a>
+                <li class="has-dropdown">
+                    <a href="about.html">Who We Are</a>
+                    <ul class="dropdown">
+                        <li><a href="about.html#mission">Our Mission</a>
+                        </li>
+                        <li><a href="about.html#students">For Students</a>
+                        </li>
+                        <li><a href="about.html#investors">For Investors</a>
+                        </li>
+                        <li><a href="about.html#alumninetwork">Alumni Network</a>
+                        </li>
+                    </ul>
                 </li>
                 <li><a href="comingSoon.html">Team</a>
                 </li>
@@ -72,6 +82,10 @@
 </div>
 
 <body>
+    <div data-alert class="alert-box secondary">
+      Intern Apps open 9.8!
+      <a href="#" class="close">&times;</a>
+    </div>
     <div class="my-carousel">
         <div class="carousel-item">
             <div id="AboutUs">
@@ -123,7 +137,7 @@
                  </div>
             </div>
         </div>
-        <div id="JoinMailingList" class="carousel-item">
+        <!-- <div id="JoinMailingList" class="carousel-item">
             <h1 class="mailing-caption courgette">Keep in touch &amp; Stay up-to-date</h1>
             <h1 class="keep-mobile courgette">Keep in touch</h1>
             <h1 class="and-mobile courgette">&amp;</h1>
@@ -136,7 +150,7 @@
                              assets/responsive/img/BerkeleyAfternoon-large.jpg 1440w,
                              assets/responsive/img/BerkeleyAfternoon-x-large.jpg 1800w"
             >
-        </div>        
+        </div> -->        
       </div>
     <footer class="small-12 large-12 columns">
         <div class="row full-width">

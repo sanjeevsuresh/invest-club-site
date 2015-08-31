@@ -1,6 +1,18 @@
 html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
+.alert-box {
+  position: absolute;
+  color: white !important;
+  font-weight: 400;
+  width: 17%;
+  margin-left: 83%;
+  z-index: 1;
+  background-color: rgba(51,51,51, 0.4) !important;
+}
+.close {
+  color: white !important;
+}
 .top-bar, .top-bar-section ul li>a {
   background-color: rgba(51,51,51, 0);
   z-index: 999;
@@ -262,6 +274,10 @@ footer {
 }
  /* Small Screens */
 @media only screen and (max-width: 40em) {
+  .alert-box {
+    width: 100%;
+    margin-left: 0%;
+  }
   .logo {
     width: 100px;
   }
