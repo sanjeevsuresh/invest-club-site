@@ -7,14 +7,14 @@ html {
   font-weight: 400;
   width: 25%;
   margin-left: 75%;
-  z-index: 1;
+  z-index: 2;
   background-color: rgba(51,51,51, 0.4) !important;
 }
 .close {
   color: white !important;
 }
 .top-bar, .top-bar-section ul li>a {
-  background-color: rgba(51,51,51, 0);
+  background-color: rgba(240,13,14, 0);
   z-index: 999;
 }
 .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button){
@@ -34,22 +34,6 @@ html {
   margin-top: -75px;
 /*  position: relative;
 */}
-/*
-.top-bar-section ul li.active > a {
-  background: gray !important;   
-}
-
-.top-bar-section ul li.active > a:hover {
-    background: yellow !important;   
-}*/
-@font-face {
-    font-family: alteHaas;
-    src: url(fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
-}
-@font-face {
-    font-family: BebasNeue;
-    src: url(fonts/bebas_neue/BebasNeue.otf);
-}
 @font-face {
     font-family: EBGaramond;
     src: url(fonts/eb-garamond/EBGaramond12-Regular.ttf);
@@ -98,12 +82,12 @@ padding-left: 0;
 }
 .my-carousel {
   margin-top: -75px;
+  z-index: 1;
 }
 .carousel-item img {
   width:100%;
   min-width:100%;
 	height: 44em;
-  padding: 0px;
   overflow-x: hidden;
 }
 .Founded {
@@ -193,10 +177,7 @@ padding-left: 0;
 }
 
 a , .top-bar-section ul li > a {
-
-font-family: 'Tenor Sans', sans-serif;
-
-
+  font-family: 'Tenor Sans', sans-serif;
 }
 
 .link-button {
@@ -209,8 +190,6 @@ font-family: 'Tenor Sans', sans-serif;
 }
 
 .ghost-button-thick-border {
-/*  display: inline-block;*/
-/*  width: 200px;*/
   font-weight: bold;
   padding: 8px;
   color: #fff;
