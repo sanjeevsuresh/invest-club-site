@@ -1,21 +1,7 @@
 var express = require('express');
 var nodemailer = require('nodemailer');
 var router = express.Router();
-var transporter = nodemailer.createTransport({
-	service: 'Gmail',
-    auth: {
-        user: 'sanjeevsuresh.online@gmail.com', // Your email id
-        pass: 'REPLACE_ME' // Your password
-    }
-});
 var text = 'A transaction failed';
-var mailOptions = {
-    from: 'BIG <sanjeevsuresh.online@gmail.com>', // sender address
-    to: 'sanjeevsuresh95@gmail.com', // list of receivers
-    subject: 'Failed Transaction', // Subject line
-    text: text //, // plaintext body
-    // html: '<b>Hello world ✔</b>' // You can choose to send an HTML body instead
-};
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -45,13 +31,6 @@ router.post('/charge', function (request, response, next) {
 	}, function(err, charge) {
 	  if (err && err.type === 'StripeCardError') {
 	    // The card has been declined
-		transporter.sendMail(mailOptions, function(error, info){
-		    if(error){
-		        console.log(error);
-		    }else{
-		        console.log('Message sent: ' + info.response);
-		    };
-		});
 	    response.redirect('decline.html');
 	    console.log(err);
 	  } else {

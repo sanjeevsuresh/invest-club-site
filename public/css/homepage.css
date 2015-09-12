@@ -5,8 +5,8 @@ html {
   position: absolute;
   color: white !important;
   font-weight: 400;
-  width: 25%;
-  margin-left: 75%;
+  width: 20%;
+  margin-left: 80%;
   z-index: 2;
   background-color: rgba(51,51,51, 0.4) !important;
 }
