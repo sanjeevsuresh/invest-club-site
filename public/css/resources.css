@@ -134,6 +134,13 @@ h3 {
 #QuantChartMobile {
     display: none;
 }
+.presentations {
+    list-style: none;
+    text-align: center;
+    font-family: Baskerville;
+    margin-left: auto;
+    margin-right: auto;
+}
 
  /* Small Screens */
 @media only screen and (max-width: 40em) {
