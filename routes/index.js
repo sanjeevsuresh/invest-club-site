@@ -13,7 +13,7 @@ router.get('/join', function(req, res, next) {
 router.get('/apply', function(req, res, next) {
   res.redirect('getInvolved.html#InternProgram');
 });
-router.get('')
+
 router.post('/charge', function (request, response, next) {
 	// Set your secret key: remember to change this to your live secret key in production
 	// See your keys here https://dashboard.stripe.com/account/apikeys
@@ -34,7 +34,7 @@ router.post('/charge', function (request, response, next) {
 	    response.redirect('decline.html');
 	    console.log(err);
 	  } else {
-	  	response.redirect('https://docs.google.com/forms/d/1m9In9HW78jVlUPoqtgnJ_ymosLhlcg9FgBXx_bOTXOw/viewform');
+	  	response.redirect('postpayment.html');
 	  }
 	});
 });
