@@ -9,7 +9,12 @@ html {
   margin-left: 80%;
   z-index: 2;
   background-color: rgba(51,51,51, 0.4) !important;
-}
+/*  display: block;
+*/}
+.second {
+  top: 15%;
+ }
+
 .close {
   color: white !important;
 }
@@ -104,7 +109,7 @@ padding-left: 0;
   position: absolute;
   color: #FFF;
   top: 53%;
-  left: 15%;
+  left: 18%;
 }
 
 .founded-club-mobile, .first-club-mobile, .largest-club-mobile, 
@@ -264,6 +269,9 @@ footer {
   .alert-box {
     width: 100%;
     margin-left: 0%;
+  }
+  .second {
+    display: none;
   }
   .logo {
     width: 100px;
