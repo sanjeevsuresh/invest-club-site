@@ -1,5 +1,4 @@
 .picture-banner {
-    margin-top: -75px;
     background-image: url("../assets/img/BayBridge.jpg"); 
     background-position: 0% 90%;
     height:70%;
@@ -8,7 +7,55 @@
     background-size: 100% 170%;
     margin-left:auto;
     margin-right: auto;
-    display:block;
     position: relative;
+    margin-top: -75px;
+}
+.img-banner {
+    margin-top: -75px;
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right: auto;
+    height: 70%;
+    width: 100%;
+}
+.banner-header {
+    color: white;
+    font-size: 75px;
 
+    
+    position: relative;
+    left: 7%;
+    top: 35%;
+    float: right;
+    
+
+/*    display: block;
+    margin: -10% auto;
+    width: 20%;*/
+
+    /*margin: 0 auto;
+    width: 80%;*/
+}
+
+.contact-table {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 30px;
+    border: none;
+
+}
+td {
+    text-align: center;
+    background-color: transparent !important;
+}
+
+table tr {
+    text-align: center;
+    background-color: transparent !important;
+}
+table tr td .section-title {
+    text-align: center;
+}
+td p {
+    text-align: center;
 }
