@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/icon" />
     <link rel="stylesheet" href="css/foundation.css" />
     <link href='http://fonts.googleapis.com/css?family=Tenor+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
     <script src="js/vendor/modernizr.js"></script>
@@ -82,10 +83,10 @@
 </div>
 
 <body>
-    <div data-alert class="alert-box secondary">
+    <!-- <div data-alert class="alert-box secondary">
       <a target="_blank" style="color: white; text-align: center" href="https://docs.google.com/forms/d/e/1FAIpQLSdqjjb2kKgPFMywJm16DzLg-NqGmlkHjWECDpRXCvof3e4kxg/viewform?c=0&w=1">Apply to our Intern Program!</br>The deadline is Wed (2/1 at 11:59pm)</a>
       <a href="#" class="close">&times;</a>
-    </div>
+    </div> -->
 <!--     <div data-alert class="alert-box secondary">
       <a target="_blank" style="color: white; text-align: center" href="https://www.facebook.com/events/1873630812923863/">RSVP for the infosession on fb!</br> Wed 1/25 &amp; Thu 1/26</a>
       <a href="#" class="close">&times;</a>
@@ -93,29 +94,36 @@
     <div class="my-carousel">
         <div class="carousel-item">
             <div id="AboutUs">
-                <h1 class="Founded courgette"><span class="blue"> Founded in<span class="gold"> 1997,</span></span></h1>
-                <h1 class="largest-club courgette">We are the <span class="white">First</span> and  <span class="white">Largest</span> Investment Club</h1>
-                <h1 class="founded-club-mobile courgette">
-                    <span class="white"> Founded </span><span class="white">in 1997,</span>
-                </h1>
-                <h1 class="first-club-mobile courgette">We are the</h1>
-                <h1 class="largest-club-mobile courgette">
-                    <span class="white">First </span><span class="white">&amp;</span><span class="white">Largest</span>
-                </h1>
-                <h1 class="invest-club-mobile courgette"><span class="white">Investment Club</span></h1>
                 <a href="about.html" class="button small link-button ghost-button-thick-border" id="test">Who We Are</a>
                 <div id="desktop">
-                    <img src="assets/responsive/img/BerkeleyNight-x-large.png">
+                    <div class="homepage-image">
+                        <img src="assets/responsive/img/BerkeleyNight-x-large.png">
+                        <div class='homepage-text'
+                                style="display:flex; 
+                                    justify-content:center; 
+                                align-items: center;">
+                            <h1 class="Founded homepage-headline">Founded in 1997 <br />We are the <span class="white">First</span> and  <span class="white">Largest</span> Investment Club</h1>
+                        </div>
+                    </div>
+
                 </div>
                 <div id="mobile">
-                    <img src="assets/img/BerkeleyBay.jpg"
-                     alt="BerkeleyBay">                
-                 </div>
+                    <div class="homepage-mobile-image">
+                        <img src="assets/img/BerkeleyBay.jpg" alt="BerkeleyBay" />
+                        <div class="homepage-mobile-text">
+                            <h1 class="first-club-mobile homepage-headline">We are the</h1>
+                            <h1 class="largest-club-mobile homepage-headline">
+                                <span class="white">First </span><span class="white">&amp;</span><span class="white">Largest</span>
+                            </h1>
+                            <h1 class="invest-club-mobile homepage-headline"><span class="white">Investment Club</span></h1>
+                        </div> 
+                    </div>             
+                </div>
             </div>
         </div> 
         <div class="carousel-item">
             <div id="Research">
-                <h1 class="resources courgette">Teaching is our priority</h1>
+                <h1 class="resources homepage-headline">Teaching is our priority</h1>
                 <a href="resources.html" class="button small link-button ghost-button-thick-border" id="test">View Resources</a>
                 <div id="desktop">
                     <img src="assets/img/BayBridge.jpg">
@@ -128,9 +136,9 @@
          </div>
         <div class="carousel-item">
             <div id="GetInvolved">
-                <h1 class="tailored courgette">We're tailored for 
+                <h1 class="tailored homepage-headline">We're tailored for 
                     undergrads</h1>
-                <h1 class="passionate courgette"><em>passionate about investing.</em></h1>
+                <h1 class="passionate homepage-headline"><em>passionate about investing.</em></h1>
               <a href="getInvolved.html" class="button small link-button ghost-button-thick-border" id="test">Get Involved</a>
                 <div id="desktop">
                     <img src="assets/responsive/img/NYCSunset-x-large.jpg" />
