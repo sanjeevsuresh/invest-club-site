@@ -7,6 +7,7 @@
     height: 70%;
     width: 100%;
     position: relative;
+    margin-bottom: 20px;
 }
 .black {
     color: black;
@@ -85,9 +86,9 @@ h3 {
     font-size: 25px !important;
     text-align: justify;
 }
-.quote {
+.quote, .topic {
     font-family: EBGaramond;
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
 }
 .divStyling {

@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en" ng-app="invest-app">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -13,7 +13,6 @@
     <script src="js/vendor/modernizr.js"></script>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
     <link rel="stylesheet" href="css/homepage.css">
-    <link href='http://fonts.googleapis.com/css?family=Courgette&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
   
 <div id="navbar">
@@ -21,7 +20,7 @@
         <ul class="title-area">
             <li class="name">
                 <h1 id="home"><a href="index.html">
-                    <img class="logo" alt="Berkeley Investment Group" src="assets/img/biglogo.png" width="200px">
+                    <img class="logo" alt="Berkeley Investment Group" src="assets/img/biglogo.png" width="100px">
                         
                     </img>
                     <!-- Berkeley Investment Group --></a></h1>
@@ -34,18 +33,29 @@
         <section class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right">
-                <li><a href="about.html">About Us</a>
+                <li class="has-dropdown">
+                    <a href="about.html">Who We Are</a>
+                    <ul class="dropdown">
+                        <li><a href="about.html#mission">Our Mission</a>
+                        </li>
+                        <li><a href="about.html#students">For Students</a>
+                        </li>
+                        <li><a href="about.html#investors">For Investors</a>
+                        </li>
+                        <li><a href="about.html#alumninetwork">Alumni Network</a>
+                        </li>
+                    </ul>
                 </li>
-                <li><a href="comingSoon.html">Team</a>
+                <li><a href="teampage.html">Team</a>
                 </li>
                 <li class="has-dropdown">
                     <a href="resources.html">Resources</a>
                     <ul class="dropdown">
+                        <li><a href="resources.html#Helpful">Recent Presentations</a>
+                        </li>
                         <li><a href="resources.html#Successful">Past Pitches</a>
                         </li>
                         <li><a href="resources.html#Reading">Reading List</a>
-                        </li>
-                        <li><a href="resources.html#Helpful">Articles</a>
                         </li>
                     </ul>
                 </li>
@@ -61,7 +71,7 @@
                         </li>
                     </ul>
                     </li>
-                    <li><a href="comingSoon.html">Contact</a>
+                    <li><a href="contact.html">Contact</a>
                     </li>
                     <li><a href="pay.html">Become a Member</a>
                     </li>
@@ -72,12 +82,19 @@
 </div>
 
 <body>
+    <!-- <div data-alert class="alert-box secondary">
+      <a target="_blank" style="color: white; text-align: center" href="https://bigsite2015.s3.amazonaws.com/BIG Intro Meeting Spring 2016.pdf">Missed the infosession?</br>For slides - click here</a>
+      <a href="#" class="close">&times;</a>
+    </div>
+    <div data-alert class="second alert-box secondary">
+      <a target="_blank" style="color: white; text-align: center" href="https://www.facebook.com/BerkeleyInvestmentGroup/">Our first meeting is:</br>53 Barrows 7-8pm</a>
+      <a href="#" class="close">&times;</a>
+    </div> -->
     <div class="my-carousel">
         <div class="carousel-item">
             <div id="AboutUs">
                 <h1 class="Founded courgette"><span class="blue"> Founded in<span class="gold"> 1997,</span></span></h1>
                 <h1 class="largest-club courgette">We are the <span class="white">First</span> and  <span class="white">Largest</span> Investment Club</h1>
-
                 <h1 class="founded-club-mobile courgette">
                     <span class="white"> Founded </span><span class="white">in 1997,</span>
                 </h1>
@@ -96,7 +113,7 @@
                  </div>
             </div>
         </div> 
-         <div class="carousel-item">
+        <div class="carousel-item">
             <div id="Research">
                 <h1 class="resources courgette">Teaching is our priority</h1>
                 <a href="resources.html" class="button small link-button ghost-button-thick-border" id="test">View Resources</a>
@@ -108,11 +125,11 @@
                      alt="BerkeleyBay">                
                  </div>
             </div>
-        </div>
+         </div>
         <div class="carousel-item">
             <div id="GetInvolved">
-                <h1 class="tailored courgette">We're <span class="black">tailored </span>for 
-                    <span class="black">undergrads</span></h1>
+                <h1 class="tailored courgette">We're tailored for 
+                    undergrads</h1>
                 <h1 class="passionate courgette"><em>passionate about investing.</em></h1>
               <a href="getInvolved.html" class="button small link-button ghost-button-thick-border" id="test">Get Involved</a>
                 <div id="desktop">
@@ -122,34 +139,11 @@
                     <img src="assets/responsive/img/NYCSunset-small.jpg">             
                  </div>
             </div>
-        </div>
-        <div id="JoinMailingList" class="carousel-item">
-            <h1 class="mailing-caption courgette">Keep in touch &amp; Stay up-to-date</h1>
-            <h1 class="keep-mobile courgette">Keep in touch</h1>
-            <h1 class="and-mobile courgette">&amp;</h1>
-            <h1 class="date-mobile courgette">Stay up-to-date</h1>
-            <a href="pay.html" class="button small link-button ghost-button-thick-border" id="test">Mailing List</a>
-            <img src="assets/responsive/img/BerkeleyAfternoon-x-large.jpg" 
-                     alt="The Last of us"
-                     srcset="assets/responsive/img/BerkeleyAfternoon-small.jpg 600w,
-                             assets/responsive/img/BerkeleyAfternoon-small.jpg 1400w,
-                             assets/responsive/img/BerkeleyAfternoon-large.jpg 1440w,
-                             assets/responsive/img/BerkeleyAfternoon-x-large.jpg 1800w"
-            >
-        </div>        
-      </div>
+        </div>       
+    </div>
     <footer class="small-12 large-12 columns">
         <div class="row full-width">
-            <div class="small-12 medium-4 large-4 columns">
-                <h4 class="footer-section footer-section-title">Contributors</h4>
-                <ul class="contributors">
-            		<li>Sanjeev Suresh</li>
-                    <li>Michael Xu</li>
-                    <li>Chaitanya Mittal</li>
-                	<li>Vikram Baid</li>
-        	   </ul> 
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
+            <div class="small-12 medium-3 large-3 columns">
                 <h4 class="footer-section footer-section-title">Connect with Us</h4>
                 <a target="_blank" href="https://www.facebook.com/BerkeleyInvestmentGroup?fref=ts">
                     <img src="assets/flat_Icons/Icons/48/Facebook.png"></img>
@@ -160,12 +154,15 @@
                 <a target="_blank" href="https://twitter.com/invest_berkeley">
                     <img src="assets/flat_Icons/Icons/48/Twitter.png"></img>
                 </a>
+                <a target="_blank" href="https://www.ocf.berkeley.edu">
+                    <img src="assets/img/ocfbadge_blue8.png" 
+                    alt="Hosted by the OCF" width="48" height="48" style="border:0;" />
+                </a>
             </div>
-            <div class="small-12 medium-4 large-4 columns">
+            <div class="small-12 medium-9 large-9 columns">
                 <h4 class="footer-section footer-section-title">Disclaimer</h4>
                 <p class="disclaimer">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-                </p>
+                    Berkeley Investment Group (BIG) is not a collective investment scheme. BIG does not provide,  or claim to provide, fund management services. BIG has not paid any party a fee in exchange for services other than the fees charged by the online trading platforms; BIG does not provide,  or claim to provide, corporate finance or brokerage services. BIG does not provide,  or claim to provide, investment advice. BIG Members conduct their own research and collectively decide on investments subject to the terms and procedures described in the Partnership Agreement. This material has been distributed for informational and educational purposes only and should not be considered as investment advice or a recommendation of any particular security, strategy or investment product. No part of this material may be reproduced in any form, or referred to in any other publication, without express written permission. We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</p>
             </div>
           </div>     
 
@@ -183,7 +180,7 @@
           fade: true,
           autoplay: true,
           pauseOnHover: false,
-          autoplaySpeed: 4000,
+          autoplaySpeed: 6000,
         });
       });
     </script>

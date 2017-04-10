@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BIG | Prototype</title>
+    <title>BIG</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link href='http://fonts.googleapis.com/css?family=Tenor+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -36,18 +36,29 @@
         <section class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right">
-                <li><a href="about.html">About Us</a>
+                <li class="has-dropdown">
+                    <a href="about.html">Who We Are</a>
+                    <ul class="dropdown">
+                        <li><a href="about.html#mission">Our Mission</a>
+                        </li>
+                        <li><a href="about.html#students">For Students</a>
+                        </li>
+                        <li><a href="about.html#investors">For Investors</a>
+                        </li>
+                        <li><a href="about.html#alumninetwork">Alumni Network</a>
+                        </li>
+                    </ul>
                 </li>
-                <li><a href="comingSoon.html">Team</a>
+                <li><a href="teampage.html">Team</a>
                 </li>
                 <li class="has-dropdown">
                     <a href="resources.html">Resources</a>
                     <ul class="dropdown">
+                        <li><a href="resources.html#Helpful">Recent Presentations</a>
+                        </li>
                         <li><a href="resources.html#Successful">Past Pitches</a>
                         </li>
                         <li><a href="resources.html#Reading">Reading List</a>
-                        </li>
-                        <li><a href="resources.html#Helpful">Articles</a>
                         </li>
                     </ul>
                 </li>
@@ -55,15 +66,15 @@
                 <li class="has-dropdown">
                     <a href="getInvolved.html">Get Involved</a>
                     <ul class="dropdown">
-                        <li><a href="getInvolved.html#IntrotoWallStreet">General Membership</a>
+                        <li><a href="getInvolved.html#GeneralMembership">General Membership</a>
                         </li>
                         <li class="active"><a href="getInvolved.html#InternProgram">The Intern Program</a>
                         </li>
-                        <li><a href="getInvolved.html#IntrotoWallStreet2">Intro to Wallstreet Decal</a>
+                        <li><a href="getInvolved.html#IntrotoWallStreet">Intro to Wallstreet Decal</a>
                         </li>
                     </ul>
                     </li>
-                    <li><a href="comingSoon.html">Contact</a>
+                    <li><a href="contact.html">Contact</a>
                     </li>
                     <li><a href="pay.html">Become a Member</a>
                     </li>
@@ -72,17 +83,38 @@
         </section>
     </nav>
 </div>
+  
 <body>
     <div class="picture-banner">
       <h2 class="headline">We want to <span class="black help">help you </span>learn Investing</h2>
     </div>
     <div class="row">
         <div class="small-12 medium-12 large-12 columns" id="Helpful">
-                <h3 class="section-title">Helpful Articles for Beginners</h3>
-                <p> When learning a new subject or starting a new job, you'll often find acronyms or unfamiliar terminology getting in the way. While some acroynms are avoidable, others are industry standards (think EBIT, <em>Earnings before Interest and Tax</em>). In our experience, when someone doesn't know a term, he or she rarely speaks up and proceeds with the meeting not knowing. That sucks! </p>
-
-                <p>We understand why people hesitate to ask, and we want to make sure this happens to beginners less frequently. For those who like to prepare or for those who may be interested, we compiled a list of helpful articles to explain financial terms/concepts you are likely to encounter in our meetings and in the future - and for those who don't mind, you can always ask! <a href="#"><em>Show Articles</em></a>
-                </p>
+                <h3 class="section-title">Recent Presentations</h3>
+                <ul class="presentations">
+                  <li>
+                      <h4>Stock Pitch - SRC<a href="https://s3-us-west-1.amazonaws.com/bigsite2015/presentations/SRC+PPT+vFINAL.pdf"> Presentation <i class="fa fa-external-link"></i></a></h4>
+                    </li>
+  
+		  <li>
+                      <h4>4/5 Income Statement Template - Whole Foods <a href="https://s3-us-west-1.amazonaws.com/bigsite2015/presentations/Whole-Foods-Model-Workshop.xlsx">Spreadsheet <i class="fa fa-external-link"></i></a></h4>
+                    </li>
+                    <li>
+                      <h4>2/24 Competitive Advantage - Visa/Blackberry <a href="https://bigsite2015.s3.amazonaws.com/presentations/CompetitiveAdvantageFinal.pdf">Presentation <i class="fa fa-external-link"></i></a></h4>
+                    </li>
+                    <li>
+                      <h4>12/3 Income Statement Modeling - Apple <a href="https://bigsite2015.s3.amazonaws.com/presentations/ModelingWorkshopAAPL.xlsx">Spreadsheet <i class="fa fa-external-link"></i></a></h4>
+                    </li>
+                    <li>
+                      <h4>Stock Pitch - Yelp <a href="https://bigsite2015.s3.amazonaws.com/presentations/yelp-final.pdf">Presentation <i class="fa fa-external-link"></i></a></h4>
+                    </li>
+                    <li>
+                      <h4>10/11 Managing Your Money <a href="https://bigsite2015.s3.amazonaws.com/presentations/ManagingYourMoney.pdf">Presentation <i class="fa fa-external-link"></i></a></h4>
+                    </li>
+                    <li>
+                      <h4>10/6 Concepts for Valuation <a href="https://bigsite2015.s3.amazonaws.com/presentations/ConceptsForValuation.pdf">Presentation <i class="fa fa-external-link"></i></a></h4>
+                    </li>
+                </ul>
         </div>
     </div>
     <hr />
@@ -98,8 +130,8 @@
                           </div>
                           <div class="textarea">
                             <h5 class="officers"><strong>Officers:</strong> Jordan Tipton, Kevin Zhang, Andrew Yen</h5>
-                            <h6 class="Date"><strong>Date:</strong></h6>
-                            <h6><a href="#">Presentation <i class="fa fa-external-link"></i></a></h6>
+                            
+                            <h6><a href="assets/pitches/IACIFinal.pdf">Presentation <i class="fa fa-external-link"></i></a></h6>
                           </div>
                         </div>
                     </li>
@@ -110,9 +142,9 @@
                             <h4 class="ticker" style="padding-top: 12%;">SK Telecom</h4>
                           </div>
                           <div class="textarea">
-                            <h5 class="officers"><strong>Officers:</strong> Jordan Tipton, Andy Zhao, Someone Else</h5>
-                            <h6 class="Date"><strong>Date:</strong></h6>
-                            <h6><a href="#">Presentation <i class="fa fa-external-link"></i></a></h6>
+                            <h5 class="officers"><strong>Officers:</strong> Jordan Tipton, Rafael Rafailov, Chirag Odhav, Matt Gysel, Andy Zhao </h5>
+                            
+                            <h6><a href="assets/pitches/SKMFinal.pdf">Presentation <i class="fa fa-external-link"></i></a></h6>
                           </div>
                         </div>
                     </li>
@@ -123,8 +155,8 @@
                           </div>
                           <div class="textarea">
                             <h5 class="officers"><strong>Officers:</strong> Devin D'Angelo</h5>
-                            <h6 class="Date"><strong>Date:</strong></h6>
-                            <h6><a href="#">Presentation <i class="fa fa-external-link"></i></a></h6>
+                            
+                            <h6><a href="assets/pitches/HMAXFinal.pdf">Presentation <i class="fa fa-external-link"></i></a></h6>
                           </div>
                         </div>
                     </li>
@@ -135,8 +167,8 @@
                           </div>
                           <div class="textarea">
                             <h5 class="officers"><strong>Officers:</strong> Lukas Vlahos, Matt Briggs, Yosha Huang</h5>
-                            <h6 class="Date"><strong>Date:</strong></h6>
-                            <h6><a href="#">Presentation <i class="fa fa-external-link"></i></a></h6>
+                            
+                            <h6><a href="assets/pitches/IPGFinal.pdf">Presentation <i class="fa fa-external-link"></i></a></h6>
                           </div>
                         </div>
                     </li>
@@ -146,9 +178,9 @@
                             <img style="padding-top: 20%;" src="assets/img/pitches/YNDX.png" width="230px" alt="Pitch Logo"/>
                           </div>
                           <div class="textarea">
-                            <h5 class="officers"><strong>Officers:</strong> Devin D'Angelo</h5>
-                            <h6 class="Date"><strong>Date:</strong></h6>
-                            <h6><a href="#">Presentation <i class="fa fa-external-link"></i></a></h6>
+                            <h5 class="officers"><strong>Officers:</strong> Devin D'Angelo, David Liang, Tim Krauter</h5>
+                            
+                            <h6><a href="assets/pitches/YNDXFinal.pdf">Presentation <i class="fa fa-external-link"></i></a></h6>
                           </div>
                         </div>
                     </li>
@@ -159,13 +191,23 @@
                             <img style="padding-top: 22%;" src="assets/img/pitches/RNG.png" alt="Pitch Logo"/>
                           </div>
                           <div class="textarea">
-                            <h5 class="officers"><strong>Officers:</strong> Warren Buffett, David Einhorn, Oprah Winfrey</h5>
-                            <h6 class="Date"><strong>Date:</strong></h6>
-                            <h6><a href="#">Presentation <i class="fa fa-external-link"></i></a></h6>
+                            <h5 class="officers"><strong>Officers:</strong> Jordan Tipton, Andy Zhao, Jay Aurora, David Liang, Devin D'Angelo</h5>
+                            
+                            <h6><a href="assets/pitches/REIFinal.pdf">Presentation <i class="fa fa-external-link"></i></a></h6>
                           </div>
                         </div>
                     </li>
                 </ul>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns" id="Helpful">
+                <h3 class="section-title">Helpful Articles for Beginners</h3>
+                <p> When learning a new subject or starting a new job, you'll often find acronyms or unfamiliar terminology getting in the way. While some acroynms are avoidable, others are industry standards (think EBIT, <em>Earnings before Interest and Tax</em>). In our experience, when someone doesn't know a term, he or she rarely speaks up and proceeds with the meeting not knowing. That sucks! </p>
+
+                <p>We understand why people hesitate to ask, and we want to make sure this happens to beginners less frequently. For those who like to prepare or for those who may be interested, we are currently compiling a list of helpful articles to explain financial terms/concepts you are likely to encounter in our meetings and in the future - and for those who don't mind, you can always ask! <em>Stay Tuned!</em>
+                </p>
         </div>
     </div>
     <hr />
@@ -191,47 +233,47 @@
               <li>
 <!--                   <h5 class="title">Common Stock, Uncommon Profits</h5>
                   <h6 class="author">Philip A. Fisher</h6> -->
-                  <a class="book" target="_blank"><img src="assets/img/books/Common.jpg"/></a>
+                  <a class="book" target="_blank" href="http://www.amazon.com/Common-Stocks-Uncommon-Profits-Writings/dp/0471445509"><img src="assets/img/books/Common.jpg"/></a>
               </li>
               <li>
 <!--                   <h5 class="title">A Random Walk Down Wall Street</h5>
                   <h6 class="author">Burton G. Malkiel</h6> -->
-                  <a class="book" target="_blank"><img src="assets/img/books/RandomWalk.jpg"/></a>
+                  <a class="book" target="_blank" href="http://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393340740"><img src="assets/img/books/RandomWalk.jpg"/></a>
               </li>
               <li>
 <!--                   <h5 class="title">The Intelligent Investor</h5>
                   <h6 class="author">Benjamin Graham</h6> -->
-                  <a class="book" target="_blank"><img src="assets/img/books/IntelligentInvestor.jpg"/></a>
+                  <a class="book" target="_blank" href="http://www.amazon.com/The-Intelligent-Investor-Definitive-Investing/dp/0060555661"><img src="assets/img/books/IntelligentInvestor.jpg"/></a>
               </li>
               <li>
 <!--                   <h5 class="title">Stress Test</h5>
                   <h6 class="author">Timothy F. Geithner (link to gatesnotes)</h6> -->
-                  <a class="book" target="_blank"><img src="assets/img/books/StressTest.jpg"/></a>
+                  <a class="book" target="_blank" href="http://www.amazon.com/Stress-Test-Reflections-Financial-Crises/dp/0804138613"><img src="assets/img/books/StressTest.jpg"/></a>
               </li>
               <li>
 <!--                   <h5 class="title">The Clash of the Cultures</h5>
                   <h6 class="author">John Bogle</h6> -->
-                  <a class="book" target="_blank"><img src="assets/img/books/ClashOfCultures.jpg"/></a>
+                  <a class="book" target="_blank" href="http://www.amazon.com/The-Clash-Cultures-Investment-Speculation/dp/1118122771"><img src="assets/img/books/ClashOfCultures.jpg"/></a>
               </li>
               <li>
 <!--                   <h5 class="title">Business Adventures</h5>
                   <h6 class="author">John Brooks (Buffett to Bill Gates)</h6> -->
-                  <a class="book" target="_blank"><img src="assets/img/books/BusinessAdventures.jpg"/></a>
+                  <a class="book" target="_blank" href="http://www.amazon.com/Business-Adventures-Twelve-Classic-Street/dp/1497644895"><img src="assets/img/books/BusinessAdventures.jpg"/></a>
               </li>
               <li>
 <!--                   <h5 class="title">Where are the Customer's Yachts</h5>
                   <h6 class="author">Fred Schwed</h6> -->
-                  <a class="book" target="_blank"><img src="assets/img/books/Yachts.jpg"/></a>
+                  <a class="book" target="_blank" href="http://www.amazon.com/Where-Are-Customers-Yachts-Street/dp/0471770892"><img src="assets/img/books/Yachts.jpg"/></a>
               </li>
               <li>
 <!--                   <h5 class="title">Common Sense Investing</h5>
                   <h6 class="author">John G. Bogle</h6> -->
-                  <a class="book" target="_blank"><img src="assets/img/books/CommonSense.jpg"/></a>
+                  <a class="book" target="_blank" href="http://www.amazon.com/Little-Book-Common-Sense-Investing/dp/0470102101"><img src="assets/img/books/CommonSense.jpg"/></a>
               </li>
               <li>
 <!--                   <h5 class="title">Berkshire Hathaway Letters</h5>
                   <h6 class="author">Warren Buffet</h6> -->
-                  <a class="book" target="_blank"><img src="assets/img/books/Letters.jpg"/></a>
+                  <a class="book" target="_blank" href="http://www.amazon.com/Berkshire-Hathaway-Letters-Shareholders-2014-ebook/dp/B00DUM1W3E"><img src="assets/img/books/Letters.jpg"/></a>
               </li>
 
             </ul>
@@ -240,16 +282,7 @@
            
     <footer class="small-12 large-12 columns">
         <div class="row full-width">
-            <div class="small-12 medium-4 large-4 columns">
-                <h4 class="footer-section footer-section-title">Contributors</h4>
-                <ul class="contributors">
-                <li>Sanjeev Suresh</li>
-                    <li>Michael Xu</li>
-                    <li>Chaitanya Mittal</li>
-                  <li>Vikram Baid</li>
-             </ul> 
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
+            <div class="small-12 medium-3 large-3 columns">
                 <h4 class="footer-section footer-section-title">Connect with Us</h4>
                 <a target="_blank" href="https://www.facebook.com/BerkeleyInvestmentGroup?fref=ts">
                     <img src="assets/flat_Icons/Icons/48/Facebook.png"></img>
@@ -261,11 +294,34 @@
                     <img src="assets/flat_Icons/Icons/48/Twitter.png"></img>
                 </a>
             </div>
-            <div class="small-12 medium-4 large-4 columns">
+            <!-- <div class="small-12 medium-6 large-6 columns">
+                <h4 class="footer-section footer-section-title">Site Map</h4>
+                <nav class="breadcrumbs">
+                          <a href="#">Home</a>
+                          <a href="about.html#mission">Our Mission</a>
+                          <a href="about.html#students">For Students</a>
+                        <a href="about.html#investors">For Investors</a>
+                        <a href="about.html#alumninetwork">Alumni Network</a>
+                        <a href="teampage.html">Team</a>
+                    <a href="resources.html">Resources</a>
+                    
+                        <a href="resources.html#Successful">Past Pitches</a>
+                        <a href="resources.html#Reading">Reading List</a>
+                        <a href="resources.html#Helpful">Articles</a>
+
+                    <a href="getInvolved.html">Get Involved</a>
+
+                        <a href="getInvolved.html#GeneralMembership">General Membership</a>
+                        <a href="getInvolved.html#InternProgram">The Intern Program</a>
+                        <a href="getInvolved.html#IntrotoWallStreet">Intro to Wallstreet Decal</a>
+                    <a href="teampage.html">Contact</a>
+                    <a href="pay.html">Become a Member</a>
+                </nav>
+            </div> -->
+            <div class="small-12 medium-9 large-9 columns">
                 <h4 class="footer-section footer-section-title">Disclaimer</h4>
                 <p class="disclaimer">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-                </p>
+                    Berkeley Investment Group (BIG) is not a collective investment scheme. BIG does not provide,  or claim to provide, fund management services. BIG has not paid any party a fee in exchange for services other than the fees charged by the online trading platforms; BIG does not provide,  or claim to provide, corporate finance or brokerage services. BIG does not provide,  or claim to provide, investment advice. BIG Members conduct their own research and collectively decide on investments subject to the terms and procedures described in the Partnership Agreement. This material has been distributed for informational and educational purposes only and should not be considered as investment advice or a recommendation of any particular security, strategy or investment product. No part of this material may be reproduced in any form, or referred to in any other publication, without express written permission. We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</p>
             </div>
           </div>     
 

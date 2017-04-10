@@ -1,10 +1,19 @@
 var express = require('express');
+var nodemailer = require('nodemailer');
 var router = express.Router();
+var text = 'A transaction failed';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+router.get('/join', function(req, res, next) {
+  res.redirect('pay.html');
+});
+router.get('/apply', function(req, res, next) {
+  res.redirect('getInvolved.html#InternProgram');
+});
+
 router.post('/charge', function (request, response, next) {
 	// Set your secret key: remember to change this to your live secret key in production
 	// See your keys here https://dashboard.stripe.com/account/apikeys
@@ -22,10 +31,10 @@ router.post('/charge', function (request, response, next) {
 	}, function(err, charge) {
 	  if (err && err.type === 'StripeCardError') {
 	    // The card has been declined
-	    response.send('Your transaction did not go through for the following reason:\n' + err.message);
+	    response.redirect('decline.html');
 	    console.log(err);
 	  } else {
-	  	response.redirect('https://docs.google.com/forms/d/1m9In9HW78jVlUPoqtgnJ_ymosLhlcg9FgBXx_bOTXOw/viewform');
+	  	response.redirect('postpayment.html');
 	  }
 	});
 });

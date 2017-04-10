@@ -1,0 +1,17 @@
+h2, p {
+	color: #FFF;
+}
+form {
+	display: block;
+	margin: 0 auto;
+/*	text-align: center;
+*/}
+form input {
+/*	text-align: center;
+*/}
+form input.file {
+}
+
+.application {
+	color: #FFF;
+}
