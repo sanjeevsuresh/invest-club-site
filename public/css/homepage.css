@@ -139,15 +139,17 @@ padding-left: 0;
 .tailored {
   position: absolute;
   color: #FFF;
-  width: 50%;
-  top: 40%; left: 10%;
+  width: 45%;
+  top: 40%; left: 40%; right: 0; bottom: 0;
+  margin-left: -20%;
   margin-left: -8%;
+  text-align: center;
 }
 .passionate {
   position: absolute;
   color: #FFF;
   width: 45%;
-  top: 50%; left: 15%;
+  top: 50%; left: 40%;
   margin-left: -8%;
   text-align: center;
 }
