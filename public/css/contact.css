@@ -21,8 +21,6 @@
 .banner-header {
     color: white;
     font-size: 75px;
-
-    
     position: relative;
     left: 7%;
     top: 35%;
@@ -54,8 +52,14 @@ table tr {
     background-color: transparent !important;
 }
 table tr td .section-title {
+    font-weight: bold;
     text-align: center;
+    width: 100%;
 }
-td p {
+td a {
+    display: block;
+    font-size: 20px;
+    color: black;
     text-align: center;
+    padding-top: 3%;
 }
