@@ -63,3 +63,6 @@ td a {
     text-align: center;
     padding-top: 3%;
 }
+td a:visited {
+ color: black;
+}
