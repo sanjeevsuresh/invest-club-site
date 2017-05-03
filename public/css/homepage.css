@@ -18,6 +18,7 @@ html {
 .close {
   color: white !important;
 }
+
 .top-bar, .top-bar-section ul li>a {
   background-color: rgba(240,13,14, 0);
   z-index: 999;
@@ -77,7 +78,7 @@ p {
 }
 html, body {
   height: 100%;
-  background-color: #333;
+  background-color: #FFF;
 }
 .no-pad-right {
 padding-right: 0;
@@ -109,17 +110,9 @@ padding-left: 0;
 */  line-height: 45%;
 }
 .homepage-headline {
+  color: #FFF;
   line-height: 130%;
 }
-.Founded {
-  color: #FFF;
- }
-.largest-club {
-/*  position: absolute;
-*/  color: #FFF;
-/*  top: 53%;
-  left: 18%;
-*/}
 
 .founded-club-mobile, .first-club-mobile, .largest-club-mobile, 
 .invest-club-mobile , .keep-mobile, .and-mobile, .date-mobile {
