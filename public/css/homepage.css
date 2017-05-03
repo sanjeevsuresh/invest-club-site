@@ -87,7 +87,7 @@ padding-right: 0;
 padding-left: 0;
 }
 .my-carousel {
-  position: relative;
+  position: absolute;
   margin-top: -75px;
   z-index: 1;
 }
