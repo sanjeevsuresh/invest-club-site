@@ -102,13 +102,16 @@ padding-left: 0;
 }
 .homepage-text {
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 30%;
   width: 40%;
 /*  min-width: 500px;
-*/  line-height: 45%;
+*/line-height: 45%;
 }
 .homepage-headline {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  background-color: rgba(51,51,51, 0.15);
   line-height: 130%;
 }
 .Founded {
@@ -132,7 +135,7 @@ padding-left: 0;
   position: absolute;
   color: #FFF;
   width: 40%;
-  top: 50%;
+  top: 40%;
   left: 30%;
 }
 
@@ -141,16 +144,10 @@ padding-left: 0;
   color: #FFF;
   width: 45%;
   top: 40%; left: 40%; right: 0; bottom: 0;
-  margin-left: -20%;
-  margin-left: -8%;
+  margin-left: -12%;
   text-align: center;
 }
-.passionate {
-  position: absolute;
-  color: #FFF;
-  width: 45%;
-  top: 50%; left: 40%;
-  margin-left: -8%;
+.tailored-mobile {
   text-align: center;
 }
 .engage {
@@ -174,6 +171,7 @@ padding-left: 0;
   overflow: auto;
 }
 .white {
+  font-style: italic;
   color: white;
 }
 .black {
@@ -186,12 +184,6 @@ padding-left: 0;
 .gold {
   color: #FDB515;
 }
-.homepage-headline {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  background-color: rgba(51,51,51, 0.15);
-}
-
 a , .top-bar-section ul li > a {
   font-family: 'Tenor Sans', sans-serif;
 }
