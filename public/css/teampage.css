@@ -89,15 +89,10 @@
 	font-weight: bold;
 	font-family: EBGaramond;
 	font-size: 15px !important;
-	margin-left: 755px;
-	margin-top: 50px;
 }
 
 .missing {
 	font-style: italic;
 	font-family: EBGaramond;
-	font-size: 15px !important;
-	margin-left: 775px;
-	margin-top: -20px;
-	
+	font-size: 15px !important;	
 }
