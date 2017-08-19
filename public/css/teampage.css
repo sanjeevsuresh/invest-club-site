@@ -1,7 +1,7 @@
-.picture-banner1 {
+.picture-banner {
     padding-top: 5%;
-    background-image: url("https://s3-us-west-1.amazonaws.com/berkeleyinvestmentgroupwebsite/Team_Photos/teampic.jpg");
-    background-position: 100% 40%;
+    background-image: url("https://s3-us-west-1.amazonaws.com/berkeleyinvestmentgroupwebsite/Team_Photos_2017/Execs.jpg");
+    background-position: 100% 60%;
     background-repeat: no-repeat;
     background-size: 100% 200%;
     height: 70%;
@@ -9,6 +9,38 @@
     position: relative;
 }
 
+.my-carousel {
+	margin: 0 0 0 0;
+	position: relative;
+}
+
+.carousel-item {
+	height: 400px;
+}
+
+.carousel-item img {
+	height: 350px;
+	width: 280px;
+}
+
+.exec *{
+	margin: 0 0 0 0;
+}
+.exec .title {
+	font-family: EBGaramond;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.exec .description {
+	font-style: italic;
+	margin-top: 5px;
+}
+
+.exec .question {
+	margin: 10px 0 10px 0;
+	font-weight: bold;
+}
 .individualPics {
     height: 300px;
     width: 240px;
@@ -41,7 +73,6 @@
 	font-weight: bold;
 	font-family: EBGaramond;
 	font-size: 15px !important;
-	margin-left: 755px;
 	margin-top: 50px;
 }
 
@@ -49,13 +80,46 @@
 	font-style: italic;
 	font-family: EBGaramond;
 	font-size: 15px !important;
-	margin-left: 775px;
-	margin-top: -20px;
 }
-       
 
+#alumni {
+	padding-bottom: 50px;
+}      
+.alumni .row{
+	border: .2px solid black;
+}
+.alumni h3{
+	font-family: EBGaramond;
+	font-weight: bold;
+	font-size: 20px !important;
+	margin: 15px 0 15px 0 !important;
+	text-decoration: underline black;
+	text-align: left;;	
+}
+
+.alumni p{
+	margin: 15px 0 15px 0 !important;
+}
+.alumni a{
+	margin-top: 15px !important;
+	font-size: 20px !important;
+	display: inline-block !important;
+	font-family: EBGaramond;
+}
+
+.tablinks{
+	background-color: #172861;
+}
+
+.tabcontent {
+	display: none;
+}
+#alumnip {
+	padding-top: 20px;
+	font-size: 12px !important;
+}
 @media only screen and (max-width: 40em) {
-.picture-banner1 {
+.picture-banner {
 	margin-top: -75px;
     padding-top: 5%;
     background-image: url("../assets/team-photos/teampic.jpg");
