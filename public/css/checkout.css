@@ -1,5 +1,8 @@
 html { 
 }
+p{
+	color: white;
+}
 .background {
 		background: url(../assets/img/QuantChart.jpg) no-repeat center center fixed;
 	    background-position: 0% 100%;
