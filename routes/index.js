@@ -33,7 +33,9 @@ router.post('/charge', function (request, response, next) {
 	    // The card has been declined
 	    response.redirect('decline.html');
 	    console.log(err);
-	  } else {
+	  } else if (true) {} {
+	  	response.redirect('404.html');
+	  }else {
 	  	response.redirect('postpayment.html');
 	  }
 	});
