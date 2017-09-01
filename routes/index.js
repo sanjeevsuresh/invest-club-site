@@ -17,14 +17,14 @@ router.get('/apply', function(req, res, next) {
 router.post('/charge', function (request, response, next) {
 	// Set your secret key: remember to change this to your live secret key in production
 	// See your keys here https://dashboard.stripe.com/account/apikeys
-	var stripe = require("stripe")("sk_test_N5SNmDDzrzuMl1B3MjO7fPmb");
+	var stripe = require("stripe")("sk_live_izZ7kiFU4afoFNN3Ch9OrZt9");
 
 	// (Assuming you're using express - expressjs.com)
 	// Get the credit card details submitted by the form
 	var stripeToken = request.body.stripeToken;
 
 	var charge = stripe.charges.create({
-	  amount: 2500, // amount in cents, again
+	  amount: 3000, // amount in cents, again
 	  currency: "usd",
 	  source: stripeToken,
 	  description: "EXAMPLE: Lifetime Membership + SWAG"
