@@ -49,12 +49,12 @@
 .first-caption {
     padding-top: 8%;
     padding-left: -4%;
-    font-family: 'Arvo', serif;
+    font-family: EBGaramond;
     font-style: italic;
 }
 .caption-overlayed {
     color: #FFF;
-    font-family: 'Arvo', serif;
+    font-family: EBGaramond;
 }
 body {
     background-color: #FFF;
@@ -120,11 +120,11 @@ h3 {
 .involved-section {
     color: #0B2161; 
     /*font-family: 'Arbutus Slab', serif;;*/
-    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    font-family: EBGaramond;
     text-align: justify;
 }
 .quote {
-    font-family: Baskerville;
+    font-family: EBGaramond;
     text-align: left;
 }
 .divStyling {
@@ -138,7 +138,7 @@ h3 {
 .presentations {
     list-style: none;
     text-align: center;
-    font-family: Baskerville;
+    font-family: EBGaramond;
     margin-left: auto;
     margin-right: auto;
 }
@@ -171,13 +171,13 @@ h3 {
     .first-caption {
         padding-top: 21%;
         padding-left: -5%;
-        font-family: 'Arvo', serif;
+        font-family: EBGaramond;
         font-style: italic;
         font-size: 80%;
     }
     .caption-overlayed {
         color: #FFF;
-        font-family: 'Arvo', serif;
+        font-family: EBGaramond;
         font-size: 80%;
     }
     #QuantChartRight {

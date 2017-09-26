@@ -20,13 +20,11 @@
 .first-caption {
     padding-top: 14%;
     padding-left: -4%;
-    font-family: 'Arvo', serif;
     font-style: italic;
 }
 
 .caption-overlayed {
     color: #FFF;
-    font-family: 'Arvo', serif;
 }
 .first-caption, .caption-overlayed {
     font-size: 30px;
@@ -124,13 +122,13 @@ h3 {
     .first-caption {
         padding-top: 21%;
         padding-left: -5%;
-        font-family: 'Arvo', serif;
+        font-family: EBGaramond;
         font-style: italic;
         font-size: 80%;
     }
     .caption-overlayed {
         color: #FFF;
-        font-family: 'Arvo', serif;
+        font-family: EBGaramond;
         font-size: 80%;
     }
     .picture-banner {

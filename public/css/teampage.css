@@ -1,11 +1,9 @@
 .picture-banner {
     padding-top: 5%;
     background-image: url("https://s3-us-west-1.amazonaws.com/berkeleyinvestmentgroupwebsite/Team_Photos_2017/Execs.jpg");
-    background-position: 100% 60%;
+    background-position: 100% 80%;
     background-repeat: no-repeat;
-    background-size: 100% 200%;
-    height: 70%;
-    width: 100%;
+    background-size: 115% 150%;
     position: relative;
 }
 
@@ -42,24 +40,25 @@
 	font-weight: bold;
 }
 .individualPics {
-    height: 300px;
-    width: 240px;
+    height: 250px;
+    width: 250px;
 }
 
 .descriptions {
 	margin-top: 10px;
 	font-family: EBGaramond;
     font-size: 20px !important;
-    margin-left: 10px;
+    width: 250px;
+    text-align: center;
 }
 
 .positions {
 	font-family: EBGaramond;
     font-size: 20px !important;
     font-style: italic;
-    margin-left: 10px;
     margin-top: -25px;
-
+   	width: 250px;
+	text-align: center;
 }
 
 .section-title  {
@@ -94,7 +93,7 @@
 	font-size: 20px !important;
 	margin: 15px 0 15px 0 !important;
 	text-decoration: underline black;
-	text-align: left;;	
+	text-align: left;	
 }
 
 .alumni p{
