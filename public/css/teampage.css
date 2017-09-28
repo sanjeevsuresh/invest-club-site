@@ -1,25 +1,11 @@
 .picture-banner {
     padding-top: 5%;
-    background-image: url("../assets/img/execs.jpg");
+    background-image: url("https://s3-us-west-1.amazonaws.com/berkeleyinvestmentgroupwebsite/Team_Photos_2017/Execs.jpg");
     position: relative;
     background-position: 100% 80%;
     background-repeat: no-repeat;
     background-size: 115% 150%;
     position: relative;
-}
-
-.my-carousel {
-	margin: 0 0 0 0;
-	position: relative;
-}
-
-.carousel-item {
-	height: 400px;
-}
-
-.carousel-item img {
-	height: 350px;
-	width: 280px;
 }
 
 .exec *{
