@@ -26,9 +26,26 @@
 	margin: 10px 0 10px 0;
 	font-weight: bold;
 }
+
 .individualPics {
     height: 250px;
     width: 250px;
+   	border-radius: 50%;
+}
+
+.profile:hover .individualPics {
+	-webkit-filter: url(filters/blueFilter.svg#blue);
+}
+
+.profile .linkedinhover {
+	opacity: 0;
+}
+.profile:hover .linkedinhover {
+	transition: 1.5s ease;
+	opacity: 1;
+	position: absolute;
+	top: 109px;
+	left: 125px;
 }
 
 .descriptions {
@@ -115,11 +132,6 @@
     height: 100%;
     width: 100%;
     position: relative;
-}
-
-.individualPics {
-    height: 300px;
-    width: 240px;
 }
 
 .descriptions {
