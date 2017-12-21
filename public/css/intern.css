@@ -1,0 +1,17 @@
+.picture-banner {
+    background-image: url("../assets/img/NYC_in_Blue.jpg");
+    background-position: 14% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.subsection {
+	font-size: 25px !important;
+	font-weight: bold;
+}
+.section-title {
+	padding-bottom: 15px;
+}

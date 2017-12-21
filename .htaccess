@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{http://invest.berkeley.edu/} !(\.[^./]+)$
+RewriteCond %{REQUEST_fileNAME} !-d
+RewriteCond %{REQUEST_fileNAME} !-f
+RewriteRule (.*) /$1.html [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
+RewriteRule ^([^.]+)\.html$ http://www.invest.berkeley.edu [R=301,L]
