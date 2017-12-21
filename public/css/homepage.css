@@ -11,6 +11,9 @@ html {
   background-color: rgba(51,51,51, 0.4) !important;
 /*  display: block;
 */}
+.EOP {
+  padding-top: 50px;
+}
 .second {
   top: 15%;
  }

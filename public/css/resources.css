@@ -1,3 +1,7 @@
+.EOP {
+  padding-top: 100px;
+}
+
 .picture-banner {
     background-image: url("../assets/img/WallStreetSign.jpg");
     background-position: 0% 0%;

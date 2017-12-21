@@ -11,6 +11,10 @@
     position: relative;
 
 }
+
+.involved-section a{
+    font-size: 18px;
+}
 .headline {
     color: #990000;
     font-size: 75px;
