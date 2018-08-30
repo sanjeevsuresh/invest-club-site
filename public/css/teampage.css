@@ -1,6 +1,6 @@
 .picture-banner {
     padding-top: 5%;
-    background-image: url("https://s3-us-west-1.amazonaws.com/berkeleyinvestmentgroupwebsite/Team_Photos_2017/Execs.jpg");
+    background-image: url("https://s3-us-west-1.amazonaws.com/berkeleyinvestmentgroupwebsite/Team_Photos_2018/cover.jpg");
     background-position: 100% 80%;
     background-repeat: no-repeat;
     background-size: 105% 170%;
@@ -27,9 +27,8 @@
 }
 
 .individualPics {
-    height: 250px;
-    width: 250px;
-   	border-radius: 50%;
+    height: 300px;
+    width: 240px;
 }
 
 .profile:hover .individualPics {
@@ -43,7 +42,7 @@
 	transition: 1.5s ease;
 	opacity: 1;
 	position: absolute;
-	top: 109px;
+	top: 150px;
 	left: 125px;
 }
 
@@ -120,4 +119,40 @@
 	font-style: italic;
 	font-family: EBGaramond;
 	font-size: 15px !important;	
+}
+
+.tablinks{
+	background-color: #172861;
+}
+
+.tabcontent {
+	display: none;
+}
+#alumni {
+	padding-bottom: 50px;
+}      
+.alumni .row{
+	border: .2px solid black;
+}
+.alumni h3{
+	font-family: EBGaramond;
+	font-weight: bold;
+	font-size: 20px !important;
+	margin: 15px 0 15px 0 !important;
+	text-decoration: underline black;
+	text-align: left;	
+}
+
+.alumni p{
+	margin: 15px 0 15px 0 !important;
+}
+.alumni a{
+	margin-top: 15px !important;
+	font-size: 20px !important;
+	display: inline-block !important;
+	font-family: EBGaramond;
+}
+#alumnip {
+	padding-top: 20px;
+	font-size: 12px !important;
 }
