@@ -1,5 +1,5 @@
 .picture-banner {
-    background-image: url("../assets/img/BayBridge.jpg"); 
+    background-image: url("../assets/img/BayBridge.jpg");
     background-position: 0% 90%;
     height:70%;
     width: 100%;
@@ -22,8 +22,8 @@
     position: relative;
     left: 7%;
     top: 35%;
-    float: right;
-    
+    float: left;
+
 
 /*    display: block;
     margin: -10% auto;
