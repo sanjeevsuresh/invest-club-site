@@ -27,7 +27,7 @@
 }
 
 .individualPics {
-    height: 300px;
+    /* height: 300px; */
     width: 240px;
 }
 
@@ -118,7 +118,7 @@
 .missing {
 	font-style: italic;
 	font-family: EBGaramond;
-	font-size: 15px !important;	
+	font-size: 15px !important;
 }
 
 .tablinks{
@@ -130,7 +130,7 @@
 }
 #alumni {
 	padding-bottom: 50px;
-}      
+}
 .alumni .row{
 	border: .2px solid black;
 }
@@ -140,7 +140,7 @@
 	font-size: 20px !important;
 	margin: 15px 0 15px 0 !important;
 	text-decoration: underline black;
-	text-align: left;	
+	text-align: left;
 }
 
 .alumni p{
