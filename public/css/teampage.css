@@ -31,6 +31,7 @@
 	width: 240px;
 	border: 2px solid black;
 	border-radius: 5px;
+	box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .profile:hover .individualPics {
