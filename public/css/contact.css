@@ -33,6 +33,24 @@
     width: 80%;*/
 }
 
+.banner-header-contact {
+    color: white;
+    font-size: 75px;
+    position: relative;
+    left: 7%;
+    top: 35%;
+    float: left;
+    font-family: EBGaramond;
+
+
+/*    display: block;
+    margin: -10% auto;
+    width: 20%;*/
+
+    /*margin: 0 auto;
+    width: 80%;*/
+}
+
 .contact-table {
     margin: auto;
     width: 80%;
