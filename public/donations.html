@@ -7,16 +7,16 @@
     <title>BIG</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link href='http://fonts.googleapis.com/css?family=Tenor+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
     <script src="js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/getInvolved.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link href='http://fonts.googleapis.com/css?family=Courgette&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 </head>
+
 
 <div id="navbar">
     <nav class="top-bar" data-topbar role="navigation">
@@ -118,42 +118,32 @@
 </div>
 
 <body>
-    <div class="picture-banner">
-        <h2 class="banner-header-contact">Contact</h2>
+    <div data-alert class="alert-box secondary">
+      <a style="color: white; text-align: center" href="decline.html">Having trouble? Click here or</br>email kseth@berkeley.edu</a>
+      <a href="#" class="close">&times;</a>
     </div>
-    <table class="contact-table">
-        <tr>
-            <td>
-                <h2 class="section-title">For Club Information</h2>
-                <a href="mailto:kseth@berkeley.edu?Subject=BIG Club Information">Kshitij: kseth@berkeley.edu</a>
-            </td>
-            <td>
-                <h2 class="section-title">For Career Opportunities</h2>
-                <a href="mailto:kelly_yu@berkeley.edu?Subject=BIG Career Opportunity">Kelly: kelly_yu@berkeley.edu</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h2 class="section-title">For Investors</h2>
-                <a href="mailto:kevtang98@berkeley.edu?Subject=BIG Investor Information">Kevin: kevtang98@berkeley.edu</a>
-            </td>
-            <td>
-                <h2 class="section-title">For General Members</h2>
-                <a href="mailto:kelly_yu@berkeley.edu?Subject=BIG GM Info">Kelly: kelly_yu@berkeley.edu</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h2 class="section-title">For Intern Program</h2>
-                <a href="mailto:nachi365@berkeley.edu?Subject=BIG Intern Program">Nachi: nachi365@berkeley.edu</a>
-            </td>
-            <td>
-                <h2 class="section-title">For the DeCal</h2>
-                <a href="mailto:ankursingh@berkeley.edu?Subject=BIG Decal">Ankur: ankursingh@berkeley.edu</a>
-            </td>
-        </tr>
-    </table>
-
+    <div class="background">
+        <div id="checkout-summary">
+            <div class="small-11 large-8 small-centered columns">
+                <ul class="pricing-table">
+                  <li class="title">Thank you for considering a donation!</li>
+                  <li class="cta-button">
+                       <h6>Payments are securely handled by <a target="_blank" href="https://stripe.com/">Stripe</a></h6>
+                       <form action="/donate" method="POST">
+                        <script
+                            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                            data-key="pk_live_jm7zUNoKxKQ3fU9A3zDHGX83"
+                            data-image="assets/img/BigTower.png"
+                            data-name="Berkeley Investment Group"
+                            data-description="Donation"
+                            data-amount=document.getElementById("userInput").value>
+                        </script>
+                        </form>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <footer class="small-12 large-12 columns">
         <div class="row full-width">
             <div class="small-12 medium-3 large-3 columns">
@@ -168,6 +158,7 @@
                     <img src="assets/flat_Icons/Icons/48/Twitter.png"></img>
                 </a>
             </div>
+
             <div class="small-12 medium-9 large-9 columns">
                 <h4 class="footer-section footer-section-title">Disclaimer</h4>
                 <p class="disclaimer">
@@ -177,14 +168,9 @@
 
         </div>
     </footer>
-    <script src="js/vendor/jquery.js "></script>
+    <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script type="text/javascript " src="js/slick.min.js "></script>
     <script> $(document).foundation();</script>
-
-
-
-
 </body>
 
 </html>
