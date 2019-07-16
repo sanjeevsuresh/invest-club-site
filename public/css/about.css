@@ -1,15 +1,15 @@
 .picture-banner {
-    background-image: url("../assets/img/HaasArchFrontViewEditted.jpg"); 
-    background-position: 0% 90%;
-    height:70%;
-    width: 100%;
+    background-image: url("../assets/img/IMG_8247.jpg"); 
+    /* background-position: 0% 90%; */
+    /* height:70%; */
+    /* width: 100%; */
     background-repeat: no-repeat;
-    background-size: 100% 170%;
-    margin-left:auto;
+    /* background-size: 100% 170%; */
+    /* margin-left:auto;
     margin-right: auto;
     display:block;
-    position: relative;
-
+    position: relative; */
+    background-size: cover;
 }
 
 .involved-section a{
@@ -28,7 +28,6 @@
 
 @media only screen and (max-width: 40em) {
     .picture-banner {
-        background-size: 100% 100%;
-        background-position: 0% 0%;
+        background-size: cover;
     }
 }
