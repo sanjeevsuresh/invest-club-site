@@ -2,8 +2,9 @@
     padding-top: 5%;
     background-image: url("../assets/img/HaasAerialView.jpg");
     position: relative;
-    background-repeat: no-repeat;
-   	background-size: 100% 120%;
+	background-repeat: no-repeat;
+	background-size: cover;
+   	/* background-size: 100% 120%; */
 }
 .tablinks{
 	background-color: #172861;

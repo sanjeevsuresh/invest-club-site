@@ -1,9 +1,11 @@
 .picture-banner {
     padding-top: 5%;
     background-image: url("https://s3-us-west-1.amazonaws.com/berkeleyinvestmentgroupwebsite/Team_Photos_2018/cover.jpg");
-    background-position: 100% 80%;
+	/* background-position: 100% 80%; */
+	background-position: center;
     background-repeat: no-repeat;
-    background-size: 105% 170%;
+	/* background-size: 105% 170%; */
+	background-size: cover;
     position: relative;
 }
 
@@ -29,8 +31,13 @@
 .individualPics {
     height: 370px;
 	width: 240px;
-	border: 2px solid black;
-	box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 1px solid #a4a4a4;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	transition: box-shadow 0.3s;
+}
+
+.individualPics:hover {
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .profile:hover .individualPics {

@@ -190,7 +190,8 @@ padding-left: 0;
   color: #FDB515;
 }
 a , .top-bar-section ul li > a {
-  font-family: 'Tenor Sans', sans-serif;
+  font-size: 15px;
+  font-family: 'PT Sans';
 }
 
 .link-button {
