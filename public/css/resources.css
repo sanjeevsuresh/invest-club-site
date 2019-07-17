@@ -3,12 +3,13 @@
 }
 
 .picture-banner {
-    background-image: url("../assets/img/WallStreetSign.jpg");
-    background-position: 0% 0%;
+    background-image: url("../assets/img/bay-bridge-wallpapers-28415-2538378.jpg");
+    /* background-position: 100% 80%; */
+	background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 70%;
-    width: 100%;
+	/* background-size: 105% 170%; */
+	background-size: cover;
+    position: relative;
 }
 .book img {
     width: 350px;

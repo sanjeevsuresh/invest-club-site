@@ -1,12 +1,10 @@
 .picture-banner {
     background-image: url("../assets/img/BayBridge.jpg");
-    background-position: 0% 90%;
-    height:70%;
-    width: 100%;
+    /* background-position: 100% 80%; */
+	background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 170%;
-    margin-left:auto;
-    margin-right: auto;
+	/* background-size: 105% 170%; */
+	background-size: cover;
     position: relative;
 }
 .img-banner {
