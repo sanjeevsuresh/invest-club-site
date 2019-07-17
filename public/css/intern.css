@@ -1,12 +1,11 @@
 .picture-banner {
-    background-image: url("../assets/img/NYC_in_Blue.jpg");
-    background-position: 14% 50%;
+    background-image: url("../assets/img/Execscropped.jpg");
+    /* background-position: 100% 80%; */
+	background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 130%;
-    height: 70%;
-    width: 100%;
+	/* background-size: 105% 170%; */
+	background-size: cover;
     position: relative;
-    margin-bottom: 20px;
 }
 #apply-button {
     display: block;
