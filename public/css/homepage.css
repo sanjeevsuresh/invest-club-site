@@ -100,9 +100,14 @@ padding-left: 0;
 }
 
 .homepage-image {
-  position: relative;
   width: 100%;
+	background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
 }
+
+
 .homepage-text {
   position: absolute;
   top: 30%;
