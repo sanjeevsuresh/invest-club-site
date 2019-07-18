@@ -12,6 +12,16 @@
 
 .banner-header-alumni {
     color: white;
+    font-size: 100px !important;
+    position: relative;
+    top: 10%;
+    margin-left: 5%;
+    float: left;
+    font-family: EBGaramond;
+}
+
+.banner-header-alumni {
+    color: white;
     font-size: 75px;
     position: relative;
     top: 30%;
