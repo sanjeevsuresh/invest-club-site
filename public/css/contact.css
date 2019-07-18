@@ -31,6 +31,17 @@
     width: 80%;*/
 }
 
+.individualPics {
+    height: 370px;
+	width: 240px;
+	border: 1px solid #a4a4a4;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	transition: box-shadow 0.3s;
+}
+.individualPics:hover {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
 .banner-header-contact {
     color: white;
     font-size: 75px;
@@ -79,4 +90,61 @@ td a {
 }
 td a:visited {
  color: black;
+}
+
+.prof {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.prof:hover {
+    background-color: whitesmoke;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.prof .mailhover {
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    opacity: 0;
+    width: auto;
+    height: 30%;
+    object-fit: cover;
+}
+.prof:hover .mailhover {
+    transition: 1s ease;
+    display: inline;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 40em) {
+    .individualPics {
+        height: 148px;
+        width: 96px;
+        border: 1px solid #a4a4a4;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        transition: box-shadow 0.3s;
+    }
+
+    .section-title {
+        font-size: 20px !important;
+    }
+    .prof .mailhover {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        opacity: 0;
+        width: auto;
+        height: 30%;
+        object-fit: cover;
+    }
+
+    .prof:hover .mailhover {
+        transition: 1s ease;
+        display: inline;
+        opacity: 1;
+    }
+    
 }
