@@ -119,6 +119,13 @@ td a:visited {
     opacity: 1;
 }
 
+.nameoverlay {
+    margin-top: 5px;
+    font-family: EBGaramond !important;
+    font-size: 22px !important;
+    position: relative;
+}
+
 @media only screen and (max-width: 40em) {
     .individualPics {
         height: 148px;
