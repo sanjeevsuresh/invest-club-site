@@ -51,3 +51,14 @@
 	padding-top: 20px;
 	font-size: 12px !important;
 }
+
+@media only screen and (max-width: 40em) {
+    .picture-banner {
+		padding-top: 5%;
+		background-image: url("../assets/img/baybridgenightbigblurred.jpg");
+		position: relative;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 60%
+	}
+}
