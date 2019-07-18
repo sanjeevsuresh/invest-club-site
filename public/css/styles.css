@@ -1,0 +1,22 @@
+.banner-header-styles {
+    color: white;
+    font-size: 75px;
+    position: relative;
+    top: 40%;
+    margin-left: 5%;
+    float: left;
+    font-family: EBGaramond;
+}
+
+
+@media only screen and (max-width: 40em) {
+    .banner-header-styles {
+        color: white;
+        font-size: 50px;
+        position: relative;
+        top: 40%;
+        margin-left: 5%;
+        float: left;
+        font-family: EBGaramond;
+    }
+}

@@ -152,13 +152,15 @@ h3 {
     }
     .picture-banner {
         padding-top: 5%;
-        background-image: url("../assets/responsive/img/NYCSunset-small.jpg");
+        background-image: url("../assets/img/NYCSunsetblurred.jpg");
         background-position: 0% 0%;
-        background-repeat: no-repeat;
-        background-size: 100% 170%;
         height: 50%;
         width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
         position: relative;
+        background-attachment: fixed;
+        background-position: center;
     }
     #QuantChartRight {
         display: none;
