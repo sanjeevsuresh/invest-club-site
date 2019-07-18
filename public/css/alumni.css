@@ -1,6 +1,6 @@
 .picture-banner {
     padding-top: 5%;
-    background-image: url("../assets/img/HaasAerialView.jpg");
+    background-image: url("../assets/img/baybridgenightbigblurred.jpg");
     position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -8,6 +8,16 @@
 }
 .tablinks{
 	background-color: #172861;
+}
+
+.banner-header-alumni {
+    color: white;
+    font-size: 75px;
+    position: relative;
+    top: 30%;
+    margin-left: 150px;
+    float: left;
+    font-family: EBGaramond;
 }
 
 .tabcontent {

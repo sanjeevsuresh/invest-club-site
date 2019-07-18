@@ -2,8 +2,18 @@
   padding-top: 100px;
 }
 
+.banner-header-resource {
+    color: white;
+    font-size: 75px;
+    position: relative;
+    top: 40%;
+    margin-left: 150px;
+    float: left;
+    font-family: EBGaramond;
+}
+
 .picture-banner {
-    background-image: url("../assets/img/bay-bridge-wallpapers-28415-2538378.jpg");
+    background-image: url("../assets/img/baybridgeblur.jpg");
     /* background-position: 100% 80%; */
 	background-position: center;
     background-repeat: no-repeat;
@@ -158,8 +168,13 @@ h3 {
  /* Small Screens */
 @media only screen and (max-width: 40em) {
     .picture-banner {
-        background-size: 100% 100%;
-        background-position: 0% 0%;
+        background-image: url("../assets/img/baybridgeblur.jpg");
+    /* background-position: 100% 80%; */
+	background-position: center;
+    background-repeat: no-repeat;
+	/* background-size: 105% 170%; */
+	background-size: cover;
+    position: relative;
     }
     .headline {
         padding-top: 65%;
@@ -204,5 +219,14 @@ h3 {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .banner-header-resource {
+        color: white;
+        font-size: 50px;
+        position: relative;
+        top: 50%;
+        float: left;
+        font-family: EBGaramond;
     }
 }

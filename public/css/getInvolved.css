@@ -1,6 +1,6 @@
 .picture-banner {
-    background-image: url("../assets/responsive/img/NYCSunset-large.jpg");
-    background-position: 14% 10%;
+    background-image: url("../assets/img/NYCSunsetblurred.jpg");
+    /* background-position: 14% 10%; */
     background-size: 100% 100%;
     height: 70%;
     width: 100%;
@@ -9,6 +9,19 @@
     background-repeat: no-repeat;
 	background-size: cover;
     position: relative;
+    background-attachment: fixed;
+    background-position: center;
+
+    /* this thing applies to all banners somehow?????? */
+}
+.banner-header-getinvolved {
+    color: white;
+    font-size: 75px;
+    position: relative;
+    top: 40%;
+    margin-left: 150px;
+    float: left;
+    font-family: EBGaramond;
 }
 .black {
     color: black;

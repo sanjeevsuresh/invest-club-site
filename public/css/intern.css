@@ -7,6 +7,15 @@
 	background-size: cover;
     position: relative;
 }
+.banner-header-intern {
+    color: white;
+    font-size: 75px;
+    position: relative;
+    top: 40%;
+    margin-left: 150px;
+    float: left;
+    font-family: EBGaramond;
+}
 #apply-button {
     display: block;
     width: 150px;

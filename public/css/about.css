@@ -12,6 +12,16 @@
     background-size: cover;
 }
 
+.banner-header-about {
+    color: white;
+    font-size: 75px;
+    position: relative;
+    top: 40%;
+    margin-left: 150px;
+    float: left;
+    font-family: EBGaramond;
+}
+
 .involved-section a{
     font-size: 18px;
 }
