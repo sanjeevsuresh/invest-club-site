@@ -74,7 +74,7 @@
 
 .section-title  {
 	margin-top: 50px;
-	margin-left: 225px;
+	margin-left: 10%;
 	font-family: EBGaramond;
     font-size: 30px !important;
 }
@@ -110,13 +110,6 @@
 	margin-top: 10px;
 	font-family: EBGaramond;
     font-size: 20px !important;
-}
-
-.section-title  {
-	margin-top: 50px;
-	margin-left: 225px;
-	font-family: EBGaramond;
-    font-size: 30px !important;
 }
 
 .missingTitle {
@@ -165,4 +158,36 @@
 #alumnip {
 	padding-top: 20px;
 	font-size: 12px !important;
+}
+
+.individualPics {
+    height: 148px;
+	width: 96px;
+	border: 1px solid #a4a4a4;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	transition: box-shadow 0.3s;
+	margin-left: 17%;
+}
+
+.descriptions {
+	font-family: EBGaramond;
+    font-size: 20px !important;
+    width: 100px;
+	text-align: center;
+	margin-left: 17%;
+}
+
+.positions {
+	font-family: EBGaramond;
+    font-size: 15px !important;
+   	width: 100px;
+	text-align: center;
+	margin-left: 17%;
+}
+
+.section-title {
+	font-family: EBGaramond;
+    font-size: 35px !important;
+}
+
 }
