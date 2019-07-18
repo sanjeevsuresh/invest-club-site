@@ -120,10 +120,10 @@ td a:visited {
 }
 
 .nameoverlay {
-    margin-top: 5px;
     font-family: EBGaramond !important;
     font-size: 22px !important;
-    position: relative;
+    object-fit: cover;
+    margin-top: 5px;
 }
 
 @media only screen and (max-width: 40em) {
