@@ -40,6 +40,9 @@
 }
 .individualPics:hover {
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    background-color: whitesmoke;
+    opacity: 0.8;
+    transition: opacity 0.3s;
 }
 
 .banner-header-contact {
@@ -98,17 +101,12 @@ td a:visited {
     left: 0;
 }
 
-.prof:hover {
-    background-color: whitesmoke;
-    opacity: 0.8;
-    transition: opacity 0.3s;
-}
-
 .prof .mailhover {
     position: absolute;
     top: 30%;
     left: 21%;
     opacity: 0;
+    pointer-events: none;
     width: auto;
     height: 30%;
     object-fit: cover;
