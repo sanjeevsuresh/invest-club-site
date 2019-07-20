@@ -71,4 +71,14 @@
 		background-size: cover;
 		height: 60%
 	}
+
+	.banner-header-alumni {
+		color: white;
+		font-size: 50px !important;
+		position: relative;
+		top: 40%;
+		margin-left: 5%;
+		float: left;
+		font-family: EBGaramond;
+	}
 }
