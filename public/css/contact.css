@@ -111,7 +111,7 @@ td a:visited {
     height: 30%;
     object-fit: cover;
 }
-.prof:hover .mailhover {
+.mail:hover .mailhover {
     transition: 1s ease;
     display: inline;
     opacity: 1;
