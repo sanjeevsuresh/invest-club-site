@@ -1,10 +1,8 @@
 .picture-banner {
     padding-top: 5%;
     background-image: url("https://s3-us-west-1.amazonaws.com/berkeleyinvestmentgroupwebsite/Team_Photos_2018/cover.jpg");
-	/* background-position: 100% 80%; */
 	background-position: center;
     background-repeat: no-repeat;
-	/* background-size: 105% 170%; */
 	background-size: cover;
     position: relative;
 }

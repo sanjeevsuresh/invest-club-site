@@ -1,5 +1,5 @@
 .picture-banner {
-    background-image: url("../assets/img/BayBridge.jpg");
+    background-image: url("../assets/img/BayBridgeblurred.jpg");
     /* background-position: 100% 80%; */
 	background-position: center;
     background-repeat: no-repeat;
@@ -7,6 +7,7 @@
 	background-size: cover;
     position: relative;
 }
+
 .img-banner {
     background-repeat: no-repeat;
     margin-left:auto;
