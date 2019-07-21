@@ -1,5 +1,7 @@
+
+
 .picture-banner {
-    background-image: url("../assets/img/IMG_8247.jpg"); 
+    background-image: url("../assets/img/IMG_8247.jpg");
     /* background-position: 0% 90%; */
     /* height:70%; */
     /* width: 100%; */
@@ -31,9 +33,154 @@
 }
 .mission-title {
     text-align: center;
+    color: black;
 }
 .involved-section {
     color: black;
+}
+
+:root {
+  --primary-color: #425b84;
+  --secondary-color: #EEEEEE;
+  --max-width: 1100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 50px;
+  background: white;
+  color: #fff !important;
+  font: normal 1rem/1.5 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+#main-header {
+  padding: 4rem 0;
+  background: var(--secondary-color);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 { font-size: 17px;
+  color: black;
+}
+
+
+/* Create Line */
+#timeline ul {
+  padding: 50x 0;
+}
+
+#timeline ul li {
+  position: relative;
+  width: 6px;
+  padding-top: 50px;
+  margin: 0 auto;
+  background: black;
+  list-style: none;
+}
+
+/* Boxes */
+#timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 1rem;
+  background: var(--secondary-color);
+  transition: all 0.5s ease-in-out;
+  /* visibility: hidden;
+  opacity: 0; */
+}
+
+/* Right Side */
+#timeline ul li:nth-child(odd) div {
+  left: 40px;
+  transform: translate(200px, 0);
+}
+
+/* Left Side */
+#timeline ul li:nth-child(even) div {
+  left: -434px;
+  transform: translate(-200px, 0);
+}
+
+/* Dots */
+#timeline ul li:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  background: inherit;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: background 0.5s ease-in-out;
+}
+
+/* Arrows Base */
+#timeline div:before {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+/* Right Side Arrows */
+#timeline ul li:nth-child(odd) div:before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent var(--secondary-color) transparent transparent;
+}
+
+/* Left Side Arrows */
+#timeline ul li:nth-child(even) div:before {
+  right: -15px;
+  border-width: 8px 0px 8px 16px;
+  border-color: transparent transparent transparent var(--secondary-color);
+}
+
+/* Show Boxes */
+#timeline ul li.show div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+#timeline ul li.show:after { background: var(--secondary-color); }
+
+
+@media(max-width: 900px) {
+  #timeline ul li div { width: 250px; }
+
+  #timeline ul li:nth-child(even) div { left: -284px; }
+}
+
+@media(max-width: 600px) {
+  #timeline ul li { margin-left: 20px; }
+
+  #timeline ul li div {
+    width: calc(100vw - 90px);
+  }
+
+  #timeline ul li:nth-child(even) div { left: 40px; }
+
+  #timeline ul li:nth-child(even) div:before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent var(--secondary-color) transparent transparent;
+  }
 }
 
 @media only screen and (max-width: 40em) {

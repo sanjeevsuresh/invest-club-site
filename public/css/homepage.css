@@ -31,7 +31,7 @@ html {
 */}
 /*
 .top-bar-section li a:not(.button) {
-  background: rgb(12,12,12) !important;   
+  background: rgb(12,12,12) !important;
 }*/
 
 .top-bar-section li a:not(.button):hover {
@@ -51,7 +51,7 @@ html {
     src: url(fonts/Martel/Martel-DemiBold.ttf);
 }
 @font-face {
-  font-family: Cabin; 
+  font-family: Cabin;
   src: url(fonts/cabin/Cabin-Bold.otf);
 }
 @font-face {
@@ -70,6 +70,7 @@ p {
   font-family: EBGaramond;
   font-size: 20px !important;
   text-align: justify;
+  color: black;
 }
 .headline {
     font-family: EBGaramond;
@@ -134,7 +135,7 @@ padding-left: 0;
   left: 18%;
 */}
 
-.founded-club-mobile, .first-club-mobile, .largest-club-mobile, 
+.founded-club-mobile, .first-club-mobile, .largest-club-mobile,
 .invest-club-mobile , .keep-mobile, .and-mobile, .date-mobile {
   display: none;
 }
@@ -253,10 +254,10 @@ a , .top-bar-section ul li > a {
   text-align: center;
   border-radius: 50%;
   font-size: 2em;
-  background: #ABC;  
+  background: #ABC;
 }
 
-/* CSS Code for the Footer */ 
+/* CSS Code for the Footer */
 footer {
   color: #FFF;
   font-family: EBGaramond, sans-serif;
@@ -324,7 +325,7 @@ footer {
   .Founded, .largest-club , .mailing-caption {
     display: none;
   }
-  .founded-club-mobile, .first-club-mobile, .largest-club-mobile, .invest-club-mobile, 
+  .founded-club-mobile, .first-club-mobile, .largest-club-mobile, .invest-club-mobile,
   .keep-mobile, .and-mobile, .date-mobile {
     position: absolute;
     display: inherit;
