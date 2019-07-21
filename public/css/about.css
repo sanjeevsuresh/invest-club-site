@@ -96,7 +96,7 @@ h1 { font-size: 17px;
   width: 400px;
   padding: 1rem;
   background: var(--secondary-color);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.90s ease-in-out;
   /* visibility: hidden;
   opacity: 0; */
 }
@@ -124,7 +124,8 @@ h1 { font-size: 17px;
   background: inherit;
   border-radius: 50%;
   transform: translateX(-50%);
-  transition: background 0.5s ease-in-out;
+  transition: background 2s ease-in-out;
+  transition: border 0.90s
 }
 
 /* Arrows Base */
@@ -158,7 +159,10 @@ h1 { font-size: 17px;
   opacity: 1;
 }
 
-#timeline ul li.show:after { background: var(--secondary-color); }
+#timeline ul li.show:after {
+  background: black;
+  border: 4px solid
+}
 
 
 @media(max-width: 900px) {
