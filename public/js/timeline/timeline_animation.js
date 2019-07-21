@@ -16,10 +16,10 @@ const run = () =>
 console.log('hi there')
 console.log(items)
   items.forEach(item => {
-    if (isInViewport(item)) {
-      item.classList.add('show');
+    // if (isInViewport(item)) {
+      // item.classList.add('show');
       console.log('hi awdj')
-    }
+    // }
 
   });
 
