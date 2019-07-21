@@ -10,15 +10,28 @@ const isInViewport = el => {
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 };
+console.log('hi ')
 
 const run = () =>
+console.log('hi there')
+console.log(items)
   items.forEach(item => {
     if (isInViewport(item)) {
       item.classList.add('show');
+      console.log('hi awdj')
     }
+
   });
 
 // Events
 window.addEventListener('load', run);
 window.addEventListener('resize', run);
-window.addEventListener('scroll', run);
+document.body.addEventListener('scroll', () =>
+  items.forEach(item => {
+    console.log('in here')
+    if (isInViewport(item)) {
+      item.classList.add('show');
+      console.log('hi awdj')
+    }
+
+  }));
