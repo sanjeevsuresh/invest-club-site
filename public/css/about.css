@@ -75,6 +75,9 @@ h1 { font-size: 17px;
   font-style: Garamond
 }
 
+h3 {
+  font-weight: 300;
+}
 
 /* Create Line */
 #timeline ul {

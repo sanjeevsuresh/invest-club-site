@@ -36,25 +36,38 @@
 
 .tabcontent {
 	display: none;
+  text-align: center;
 }
 #alumni {
 	padding-bottom: 50px;
-}      
-.alumni .row{
-	border: .2px solid black;
 }
+
+.alumni-row-container {
+  text-align: center;
+}
+
+.alumni-row {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*.alumni .row{
+	border: .2px solid black;
+}*/
 .alumni h3{
 	font-family: EBGaramond;
 	font-weight: bold;
 	font-size: 20px !important;
 	margin: 15px 0 15px 0 !important;
 	text-decoration: underline black;
-	text-align: left;	
+	text-align: left;
 }
+
 
 .alumni p{
 	margin: 15px 0 15px 0 !important;
 }
+
 .alumni a{
 	margin-top: 15px !important;
 	font-size: 20px !important;
