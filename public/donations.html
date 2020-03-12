@@ -80,13 +80,13 @@
                   <li class="cta-button">
                        <h6>Payments are securely handled by <a target="_blank" href="https://stripe.com/">Stripe</a></h6>
                        <form action="/donate" method="POST">
-                        <input type="number" class="form-control" name="amount" id="custom-donation-amount" placeholder="50.00" min="0" step="10.00" />
                         <script
                             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                             data-key="pk_live_jm7zUNoKxKQ3fU9A3zDHGX83"
                             data-image="assets/img/BigTower.png"
                             data-name="Berkeley Investment Group"
-                            data-description="Big Donation">
+                            data-description="Big Donation"
+                            data-amount='$250'>
                         </script>
                         </form>
                   </li>
